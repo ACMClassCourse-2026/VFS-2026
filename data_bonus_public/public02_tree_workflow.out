@@ -1,0 +1,72 @@
+/
+├── empty/
+├── x/
+│   ├── a.txt
+│   ├── b.bin
+│   ├── m.md
+│   ├── sub/
+│   │   ├── deep/
+│   │   │   └── leaf.txt
+│   │   └── sub.md
+│   └── z/
+│       └── zz
+└── y/
+x/
+├── a.txt
+├── b.bin
+├── m.md
+├── sub/
+│   ├── deep/
+│   │   └── leaf.txt
+│   └── sub.md
+└── z/
+    └── zz
+empty/
+y/
+├── y1
+└── y2
+/
+├── empty/
+├── x/
+│   ├── a.txt
+│   ├── b.bin
+│   ├── m.md
+│   ├── sub/
+│   │   ├── deep/
+│   │   │   └── leaf.txt
+│   │   └── sub.md
+│   └── z/
+│       └── zz
+└── y/
+    ├── y1
+    └── y2
+/
+├── empty/
+└── y/
+    ├── y1
+    └── y2
+/
+├── empty/
+├── x/
+│   ├── a.txt
+│   ├── b.bin
+│   ├── m.md
+│   ├── sub/
+│   │   ├── deep/
+│   │   │   └── leaf.txt
+│   │   └── sub.md
+│   └── z/
+│       └── zz
+└── y/
+    ├── y1
+    └── y2
+x/
+├── a.txt
+├── b.bin
+├── m.md
+├── sub/
+│   ├── deep/
+│   │   └── leaf.txt
+│   └── sub.md
+└── z/
+    └── zz

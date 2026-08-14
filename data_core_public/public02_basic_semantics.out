@@ -1,0 +1,25 @@
+data.bin
+notes.txt
+readme.md
+notes.txt:note one
+notes.txt:note one more
+data.bin:01 02 03
+data.bin:01 FF 03
+data.bin:01 FF 03 00 00
+notes.txt:txt:13
+data.bin:bin:5
+notes.txt:13
+readme.md:8
+data.bin:5
+merged.txt:note one more# readme
+main.cpp:int main() {}
+todo.txt:txt:4
+Invalid operation
+Invalid operation
+todo.txt:4
+/todo.txt
+docs/
+src/
+todo.txt
+docs/
+src/

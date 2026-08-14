@@ -1,0 +1,42 @@
+41
+create txt readme.txt "hello vfs"
+mkdir src
+cd src
+create txt main.cpp "int main() {}"
+create md design.md "# design"
+mkdir lib
+cd lib
+create txt util.cpp "int util() {}"
+ls
+cat util.cpp
+cd ..
+ls
+cd ..
+ls
+stat readme.txt
+stat src
+append readme.txt "!"
+cat readme.txt
+cd src
+cd lib
+find util.cpp
+find main.cpp
+cd ..
+append main.cpp "// ok"
+cat main.cpp
+create txt merged.txt ""
+concat merged.txt main.cpp design.md
+cat merged.txt
+top 3
+cd ..
+cd src
+cd lib
+rm util.cpp
+ls
+undo
+ls
+cd ..
+cd ..
+find util.cpp
+undo
+ls

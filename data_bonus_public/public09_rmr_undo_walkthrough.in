@@ -1,0 +1,32 @@
+31
+mkdir data
+cd data
+mkdir raw
+mkdir out
+cd raw
+create txt a.txt "a"
+create txt b.txt "b"
+cd ..
+cd out
+create bin r.bin "01"
+cd ..
+cd ..
+rmr out
+ls
+undo
+ls
+cd out
+read r.bin 0 1
+cd ..
+rmr raw
+ls
+undo
+ls
+cd raw
+cat b.txt
+cd ..
+cd ..
+rmr data
+ls
+undo
+tree

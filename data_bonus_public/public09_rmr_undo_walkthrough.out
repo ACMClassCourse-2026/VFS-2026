@@ -1,0 +1,16 @@
+Invalid operation
+data/
+out/
+raw/
+r.bin:01
+out/
+out/
+raw/
+b.txt:b
+/
+└── data/
+    ├── out/
+    │   └── r.bin
+    └── raw/
+        ├── a.txt
+        └── b.txt

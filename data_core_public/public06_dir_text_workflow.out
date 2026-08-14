@@ -1,0 +1,23 @@
+util.cpp
+util.cpp:int util() {}
+design.md
+lib/
+main.cpp
+readme.txt
+src/
+readme.txt:txt:9
+src:dir:0
+readme.txt:hello vfs!
+/src/lib/util.cpp
+/src/main.cpp
+main.cpp:int main() {}// ok
+merged.txt:int main() {}// ok# design
+merged.txt:26
+main.cpp:18
+design.md:8
+util.cpp
+Null
+design.md
+lib/
+main.cpp
+merged.txt

@@ -1,0 +1,40 @@
+39
+mkdir x
+mkdir y
+mkdir empty
+cd x
+mkdir sub
+cd sub
+mkdir deep
+cd deep
+create txt leaf.txt "leaf"
+cd ..
+create md sub.md "sub"
+cd ..
+create txt a.txt "a"
+create bin b.bin "01 02"
+create md m.md "m"
+mkdir z
+cd z
+create txt zz "zz"
+cd ..
+cd ..
+tree
+cd x
+tree
+cd ..
+cd empty
+tree
+cd ..
+cd y
+create txt y1 "y1"
+create txt y2 "y2"
+tree
+cd ..
+tree
+rmr x
+tree
+undo
+tree
+cd x
+tree
