@@ -1,0 +1,46 @@
+45
+create txt a.txt "hello"
+cat a.txt
+undo
+cat a.txt
+redo
+cat a.txt
+mkdir dir1
+cd dir1
+create txt b.txt "world"
+ls
+undo
+ls
+redo
+ls
+append a.txt " plus"
+cat a.txt
+undo
+cat a.txt
+redo
+cat a.txt
+create bin bin1 "01 02 03"
+write bin1 1 "FF"
+read bin1 0 3
+undo
+read bin1 0 3
+redo
+read bin1 0 3
+truncate bin1 2
+read bin1 0 2
+undo
+read bin1 0 2
+redo
+read bin1 0 2
+rm a.txt
+ls
+undo
+ls
+redo
+ls
+cd ..
+ls
+undo
+ls
+redo
+ls

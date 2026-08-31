@@ -94,7 +94,7 @@ cat x.txt      → x.txt:root          （遮蔽解除，父目录的同名文�
 | `cat [name]` | 输出文件内容 |
 | `ls` | 列出当前目录 |
 | `rm [name]` | 删除当前目录下的文件或空目录 |
-| `undo` | 撤销最近一次操作 |
+| `undo` / `redo` | 撤销 / 重做最近一次操作 |
 | `read [name] [offset] [length]` | 读取 bin 文件的字节区间 |
 | `write [name] [offset] [hexdata]` | 向 bin 文件写入字节 |
 | `truncate [name] [size]` | 截断或扩展 bin 文件 |
@@ -367,12 +367,13 @@ stat a.txt
 
 * `[name]` 在查找路径上可访问，否则 `Invalid operation`。
 
-### `undo`
+### `undo` / `redo`
 
-撤销最近一次成功执行的改变系统状态的操作，使文件系统恢复到执行该操作之前的状态。
+`undo` 撤销最近一次成功执行的改变系统状态的操作，使文件系统恢复到执行该操作之前的状态；`redo` 重做最近一次被 `undo` 撤销的操作。
 
 ```
 undo
+redo
 ```
 
 要求：
@@ -380,7 +381,9 @@ undo
 * `undo` 需要覆盖所有会改变文件系统状态的操作：`mkdir` / `create` / `append` / `concat` / `cd` / `write` / `truncate` / `rm`；若实现了 `rmr`（Bonus），同样需要支持撤销。
 * 有且仅有成功执行的操作会产生可撤销记录；输出 `Invalid operation` 的操作不产生记录。
 * 可连续执行多次，逐条回退最近的操作；`undo` 自身不产生可撤销记录。
-* 没有可撤销记录时：`Invalid operation`。
+* `redo` 重做最近一次被 `undo` 撤销的操作；`undo` 与 `redo` 均不产生新的可重做记录。
+* 任何成功的 `mkdir` / `create` / `append` / `concat` / `cd` / `write` / `truncate` / `rm`（`bonus` 含 `rmr`）都会清空可重做集合；失败的 `Invalid operation` 不清空。
+* 没有可撤销记录时 `undo` 输出 `Invalid operation`；没有可重做记录时 `redo` 输出 `Invalid operation`。
 
 ## 名字与字符串规则
 

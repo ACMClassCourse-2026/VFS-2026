@@ -1,0 +1,27 @@
+a.txt:hello
+Invalid operation
+a.txt:hello
+b.txt
+b.txt
+a.txt:hello plus
+a.txt:hello
+a.txt:hello plus
+bin1:01 FF 03
+bin1:01 02 03
+bin1:01 FF 03
+bin1:01 FF
+bin1:01 FF
+bin1:01 FF
+Invalid operation
+b.txt
+bin1
+b.txt
+bin1
+b.txt
+bin1
+a.txt
+dir1/
+b.txt
+bin1
+a.txt
+dir1/
