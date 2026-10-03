@@ -11,14 +11,14 @@ cd out
 create bin r.bin "01"
 cd ..
 cd ..
-rmr out
+rm -r out
 ls
 undo
 ls
 cd out
 read r.bin 0 1
 cd ..
-rmr raw
+rm -r raw
 ls
 undo
 ls
@@ -26,7 +26,7 @@ cd raw
 cat b.txt
 cd ..
 cd ..
-rmr data
+rm -r data
 ls
 undo
 tree

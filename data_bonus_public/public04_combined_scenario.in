@@ -16,12 +16,12 @@ top 3
 cd src
 rm util.cpp
 cd ..
-rmr docs
+rm -r docs
 tree
 undo
 tree
 cd ..
-rmr proj
+rm -r proj
 ls
 undo
 tree

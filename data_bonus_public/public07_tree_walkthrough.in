@@ -27,7 +27,7 @@ tree
 cd ..
 cd ..
 tree
-rmr docs
+rm -r docs
 tree
 undo
 tree

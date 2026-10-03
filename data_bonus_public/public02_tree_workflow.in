@@ -32,7 +32,7 @@ create txt y2 "y2"
 tree
 cd ..
 tree
-rmr x
+rm -r x
 tree
 undo
 tree

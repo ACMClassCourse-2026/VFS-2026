@@ -1,11 +1,11 @@
 12000
 create bin f292 "81 2D 14 3C 4D 01 A9 80"
-rmr f292
+rm -r f292
 ls
 ls
 mkdir d160
 rm d160
-rmr n79
+rm -r n79
 mkdir d192
 ls
 ls
@@ -30,13 +30,13 @@ ls
 ls
 rm f170
 rm d3
-rmr d291
+rm -r d291
 cd f198
 ls
 create md d2 ""
 ls
 ls
-rmr d2
+rm -r d2
 top 3
 stat d167
 ls
@@ -72,11 +72,11 @@ top 1
 top 2
 append f115 "x"
 create md n85 "f"
-rmr f167
+rm -r f167
 append f115 "ib63uozpvu34zb.y"
 stat n85
 append f115 "x"
-rmr d23
+rm -r d23
 create md f65 "u.unrp"
 find n113
 create txt f115 "v2r59vyuon"
@@ -105,18 +105,18 @@ append f115 "3cn04"
 mkdir f73
 cd f143
 rm d236
-rmr f73
+rm -r f73
 tree
 undo
 tree
 concat f115 d180 f115
 mkdir d54
 truncate d180 7
-rmr d139
+rm -r d139
 undo
 undo
 read d180 7 1
-rmr f73
+rm -r f73
 read d180 4 2
 undo
 cd d123
@@ -135,11 +135,11 @@ create md d36 "g70f q_qbqv"
 truncate d257 10
 create txt f223 "3xcjo.xnu4df._cvr"
 create txt d154 "3g9ih7.viyh7j5udn"
-rmr f223
+rm -r f223
 append d257 "jg"
 write d257 0 "B1 1D 46 2E 1C 41 10 E7"
 stat d123
-rmr d36
+rm -r d36
 write d257 2 "B1 0D D3"
 read d257 7 2
 stat d123
@@ -151,13 +151,13 @@ rm n32
 undo
 create md f31 ""
 cd f73
-rmr d260
+rm -r d260
 ls
 ls
 cd ..
 write d257 2 "8A 37 B3 B3 1A B4 3A"
 find d257
-rmr f31
+rm -r f31
 append d257 "a"
 find f113
 create bin d10 ""
@@ -173,10 +173,10 @@ find d257
 append d257 "a29 o2twrw 58f"
 create txt n73 "4aqq3v"
 truncate d257 13
-rmr n59
+rm -r n59
 ls
 cd d123
-rmr f40
+rm -r f40
 create txt d264 "q_9nj1eq6 dn3b"
 create bin d80 "D5"
 ls
@@ -195,7 +195,7 @@ cd d123
 undo
 cat d17
 truncate d257 12
-rmr n97
+rm -r n97
 stat d123
 undo
 undo
@@ -217,8 +217,8 @@ ls
 cd n97
 undo
 append d257 "ij4apxg y6847kh"
-rmr n97
-rmr d154
+rm -r n97
+rm -r d154
 create txt d106 "9hwfx0"
 undo
 find d6
@@ -241,8 +241,8 @@ cat f207
 cd ..
 cd d123
 ls
-rmr d264
-rmr d80
+rm -r d264
+rm -r d80
 cat d297
 create txt f271 "9ch_jnqoy8woe8t1"
 ls
@@ -274,7 +274,7 @@ read d257 5 1
 undo
 undo
 create bin f94 ""
-rmr f94
+rm -r f94
 undo
 append d257 "0-cjv8"
 create txt f250 "plpu4qwqwm2vfg"
@@ -314,18 +314,18 @@ cd d166
 rm f94
 ls
 create bin f8 "EB"
-rmr d202
+rm -r d202
 stat d123
 find d257
 undo
-rmr f152
+rm -r f152
 stat d123
 ls
 cd f201
 truncate d257 12
 stat d123
-rmr f263
-rmr f149
+rm -r f263
+rm -r f149
 top 8
 cat f203
 ls
@@ -337,12 +337,12 @@ find d235
 truncate d257 12
 stat n91
 ls
-rmr d274
+rm -r d274
 ls
 cd ..
 cd f201
 read d257 9 3
-rmr f141
+rm -r f141
 cat n39
 ls
 create txt d233 "-ad0o.n_f5j"
@@ -372,7 +372,7 @@ rm d253
 rm f163
 cat n39
 ls
-rmr f253
+rm -r f253
 undo
 top 1
 write d257 12 "CF"
@@ -429,7 +429,7 @@ create bin f195 "64 52 84 B3"
 stat f144
 create bin d201 "61 4B 45 FF A1"
 cd ..
-rmr d170
+rm -r d170
 create txt d123 "qxo1"
 cd f201
 rm d216
@@ -450,7 +450,7 @@ undo
 find f288
 write f195 3 "9E 30 E4 EE"
 read f195 3 3
-rmr d92
+rm -r d92
 cd d157
 create md n34 "_jh6"
 cd ..
@@ -484,7 +484,7 @@ read d257 0 7
 rm d257
 append d10 "x"
 ls
-rmr n73
+rm -r n73
 create txt d148 "kmq2m9ve6"
 read d10 0 1
 mkdir d89
@@ -499,7 +499,7 @@ mkdir d260
 mkdir f78
 rm f74
 top 2
-rmr d157
+rm -r d157
 create md f168 ""
 cd f78
 stat f288
@@ -543,7 +543,7 @@ cd ..
 append f75 "x"
 create bin n82 "31 B3 45 53"
 find f33
-rmr d277
+rm -r d277
 tree
 ls
 create txt d277 "pcg47ew.422"
@@ -557,7 +557,7 @@ read f75 1 2
 undo
 append f75 "n2zwnh"
 undo
-rmr d277
+rm -r d277
 top 7
 rm d293
 find f243
@@ -590,7 +590,7 @@ find f288
 mkdir d243
 ls
 ls
-rmr d266
+rm -r d266
 ls
 append f288 "a94eagpn"
 cd n63
@@ -611,16 +611,16 @@ append n93 "x"
 create bin d82 "E3 AE ED BF 69"
 truncate d82 4
 cat d72
-rmr n98
+rm -r n98
 read d82 2 2
 read d82 5 1
 append n93 "h4mrk9ho"
 read d82 3 1
 truncate d82 1
-rmr f270
+rm -r f270
 cd ..
 ls
-rmr n28
+rm -r n28
 cat f288
 ls
 find f288
@@ -648,7 +648,7 @@ write f195 18 "9C B1 45"
 top 2
 read f195 10 4
 write f195 17 "8B 55 E4 A7 A1 2F 67"
-rmr f106
+rm -r f106
 mkdir d35
 append f288 "ap_rk-"
 create txt d248 "t2966y5oxp77o2y"
@@ -707,7 +707,7 @@ stat n82
 mkdir f175
 append n82 "3qt_ msz3cc2u"
 read n82 6 2
-rmr f280
+rm -r f280
 append n82 "._"
 top 1
 find n82
@@ -722,7 +722,7 @@ mkdir n117
 create txt d188 ""
 create bin f22 "78 48 06"
 find f24
-rmr d188
+rm -r d188
 cat f16
 write f22 0 "FC D8 79 9A AA"
 create bin f132 ""
@@ -755,7 +755,7 @@ write n82 12 "4D"
 rm f129
 ls
 append n82 "vmpy"
-rmr n40
+rm -r n40
 mkdir f41
 rm f41
 cd ..
@@ -769,7 +769,7 @@ top 5
 read n82 8 1
 create txt f243 "avy_dx72tst"
 mkdir f294
-rmr f243
+rm -r f243
 cd ..
 mkdir d127
 rm n86
@@ -806,7 +806,7 @@ ls
 cd f280
 cat d120
 mkdir d7
-rmr d7
+rm -r d7
 truncate f22 6
 cd n117
 find f22
@@ -844,7 +844,7 @@ cd ..
 find f22
 mkdir d54
 undo
-rmr n55
+rm -r n55
 truncate f22 4
 write f22 2 "A6 04 7F A7 08 A5 BA"
 cat f146
@@ -888,7 +888,7 @@ create md f87 "onferb6wv 5otk_6"
 read f68 0 4
 top 6
 create txt f63 "4xad"
-rmr f87
+rm -r f87
 ls
 cd ..
 append f132 "83"
@@ -897,7 +897,7 @@ undo
 append f132 "6_.acp5rex6r10"
 write f132 7 "4A 40"
 stat n117
-rmr n117
+rm -r n117
 cat f18
 truncate f132 10
 stat f132
@@ -918,14 +918,14 @@ mkdir f226
 truncate n82 15
 write n82 1 "1D"
 read n82 12 1
-rmr n36
+rm -r n36
 stat f226
 create md n83 "6nmp7bmu7"
 top 4
 find n83
 append n82 "x"
 cat n83
-rmr n83
+rm -r n83
 create txt f218 ""
 ls
 rm f226
@@ -967,7 +967,7 @@ rm f280
 rm d86
 cd d212
 undo
-rmr f137
+rm -r f137
 create bin d140 "3F 18 8A C4 24 9A C7"
 cd d158
 read f187 0 7
@@ -978,7 +978,7 @@ cd ..
 cat d213
 stat f288
 undo
-rmr d212
+rm -r d212
 undo
 ls
 find d130
@@ -988,7 +988,7 @@ top 1
 create txt f81 ""
 append f218 "x"
 write f187 3 "84 D5 A2 AF EE 26 AA 2C"
-rmr d78
+rm -r d78
 append f218 "22x.k"
 append f218 "6157pqo86gl.st"
 ls
@@ -1021,7 +1021,7 @@ append f174 "x"
 rm f174
 create md n70 "mywwyn90vz_nbq"
 cat n70
-rmr n70
+rm -r n70
 cat n69
 ls
 write f187 2 "CC"
@@ -1074,14 +1074,14 @@ rm n29
 ls
 ls
 cat d237
-rmr d24
+rm -r d24
 ls
 write f187 4 "1F B4 35 77 A9 63 72"
-rmr f74
+rm -r f74
 create txt n86 "-fwnh"
 mkdir f140
 create md d11 "w_ggb3gnckgv_my"
-rmr d11
+rm -r d11
 create txt f184 ""
 ls
 stat f273
@@ -1093,7 +1093,7 @@ create txt f282 "k8wp"
 read f187 4 9
 cd f140
 ls
-rmr n59
+rm -r n59
 stat n86
 undo
 tree
@@ -1101,7 +1101,7 @@ find n86
 rm n86
 ls
 cd ..
-rmr d237
+rm -r d237
 append f134 "weqrtm5h3j--ykv"
 tree
 undo
@@ -1125,7 +1125,7 @@ find f134
 rm d40
 append f134 "45g e.69h"
 cd d40
-rmr f282
+rm -r f282
 create txt d251 "8i6g1pom2vn670mxm"
 truncate f187 19
 cat f184
@@ -1196,13 +1196,13 @@ find n113
 mkdir n67
 undo
 ls
-rmr f275
+rm -r f275
 read f187 5 1
 top 7
 cat n113
 stat f85
 append n113 "byhky_dpd"
-rmr f131
+rm -r f131
 stat f85
 stat f85
 create bin d108 "39 AF 1D 3D"
@@ -1214,7 +1214,7 @@ cd ..
 append f187 "jz_ht6my 2ih"
 cat f42
 top 1
-rmr f85
+rm -r f85
 append n113 "k026imbk3zugne"
 create bin f79 "0E E3 C3 68 47 06"
 mkdir f67
@@ -1241,7 +1241,7 @@ stat d108
 tree
 append d108 "avge-1k"
 read d108 5 1
-rmr f52
+rm -r f52
 create md d242 "2z4h51 z4j9uq"
 write d108 3 "97 16 5E 26 43 30"
 truncate d108 8
@@ -1263,11 +1263,11 @@ write f79 8 "CE"
 rm f291
 read f79 1 3
 cd f255
-rmr n87
-rmr f162
+rm -r n87
+rm -r f162
 rm f252
 stat d87
-rmr d87
+rm -r d87
 create txt n42 ""
 ls
 mkdir d216
@@ -1285,12 +1285,12 @@ write f187 12 "D0 A5"
 cd d230
 cat n113
 cat n113
-rmr n57
-rmr f180
+rm -r n57
+rm -r f180
 write f187 4 "16 87 7A 92 2C 22 62"
 create txt d176 "09t.ecy8"
 read f187 1 17
-rmr d176
+rm -r d176
 undo
 undo
 append f187 "9j.qteeypf2kg_uw"
@@ -1299,7 +1299,7 @@ cd ..
 cd ..
 stat n104
 cd f90
-rmr f160
+rm -r f160
 undo
 stat f79
 read f79 10 1
@@ -1339,7 +1339,7 @@ mkdir n3
 mkdir f226
 truncate f79 26
 find d40
-rmr n50
+rm -r n50
 cat d40
 top 8
 top 5
@@ -1349,18 +1349,18 @@ rm n8
 ls
 truncate f79 25
 truncate f79 26
-rmr f94
+rm -r f94
 stat n40
 mkdir d124
 cat f222
 ls
-rmr f226
+rm -r f226
 undo
 write f79 26 "E7 06 AE 0F 3D C7 90 9C"
 rm d124
 undo
 tree
-rmr f226
+rm -r f226
 write f79 15 "81 B7 53 F3 6F FC 4F 86"
 rm n3
 create md d272 "6jue jc6t"
@@ -1372,7 +1372,7 @@ append f79 "456"
 rm n40
 find f222
 mkdir n16
-rmr d272
+rm -r d272
 rm f222
 undo
 create txt n36 "lj8w2k"
@@ -1393,7 +1393,7 @@ ls
 cat f222
 cat f222
 read f79 27 6
-rmr f215
+rm -r f215
 cat f222
 create md f197 ""
 create txt f145 ""
@@ -1402,7 +1402,7 @@ ls
 truncate f79 38
 create txt f10 "h4x"
 create md f186 "6rv1b"
-rmr f10
+rm -r f10
 ls
 cd ..
 ls
@@ -1420,7 +1420,7 @@ undo
 append f79 "d3dfo6bc"
 cd d15
 read f79 13 7
-rmr d97
+rm -r d97
 cat f185
 ls
 top 3
@@ -1462,7 +1462,7 @@ create bin n28 "41 52 54"
 undo
 undo
 top 8
-rmr d61
+rm -r d61
 read d47 2 1
 ls
 read d47 4 2
@@ -1525,14 +1525,14 @@ create txt f43 ""
 cd ..
 create md f29 "5"
 mkdir d184
-rmr f29
+rm -r f29
 cd n104
 rm d230
 find n10
 stat f286
 write f187 7 "62 54 61 F4 DE AE C0"
 tree
-rmr f286
+rm -r f286
 find n41
 find n113
 append n113 "x"
@@ -1571,7 +1571,7 @@ rm f11
 write d106 3 "66 8B 43 2E"
 ls
 find d106
-rmr d22
+rm -r d22
 mkdir d148
 write d106 8 "5A A8 58 48 95 31"
 ls
@@ -1602,7 +1602,7 @@ cd ..
 truncate f187 19
 append n113 "x"
 create txt f248 "k "
-rmr f90
+rm -r f90
 read f187 4 11
 cd ..
 rm d251
@@ -1614,11 +1614,11 @@ read f187 9 3
 find d158
 top 2
 truncate f187 16
-rmr d40
+rm -r d40
 create md n117 "yt0 fnk .0mza2hyb"
-rmr n117
+rm -r n117
 append f134 "c.xb39xoo90k"
-rmr f75
+rm -r f75
 cd ..
 rm n30
 read f187 0 10
@@ -1632,7 +1632,7 @@ append f134 "zdi1vl7me3urc8ae4"
 create txt d193 "8cgocd_psmpk_1t"
 find d283
 cd ..
-rmr d158
+rm -r d158
 rm f218
 write f187 15 "1B BF A9 84"
 ls
@@ -1641,7 +1641,7 @@ ls
 write f187 10 "48 88 7E 99 9A A3 AE"
 read f187 8 2
 read f187 12 6
-rmr d235
+rm -r d235
 read f187 13 6
 undo
 ls
@@ -1657,7 +1657,7 @@ cd d120
 create md f189 "u2_o_fvr1"
 append f187 "x"
 write f187 0 "7E"
-rmr f189
+rm -r f189
 cat n20
 append f187 "68"
 rm d235
@@ -1718,7 +1718,7 @@ cd f175
 mkdir d248
 append f194 "kzpda"
 rm d248
-rmr d71
+rm -r d71
 ls
 write f195 23 "63 F4"
 mkdir d258
@@ -1740,7 +1740,7 @@ truncate f195 33
 create md d271 "4e5h-_qke3"
 rm d271
 create md d238 ""
-rmr f280
+rm -r f280
 find f194
 create txt d98 "u-l_y8nq-c50na"
 create md f245 "i2v084gk5f0"
@@ -1755,12 +1755,12 @@ find f288
 stat f288
 cd ..
 mkdir n112
-rmr f123
+rm -r f123
 cat d173
 rm f201
 rm f250
 undo
-rmr f250
+rm -r f250
 write d10 0 "76 D2 7E 55 6B 38 AD"
 mkdir f263
 find d10
@@ -1788,10 +1788,10 @@ cat f115
 ls
 create bin n65 "13 F7 CE"
 create txt f107 ""
-rmr f205
+rm -r f205
 append f115 "y649_xi1xhd"
 read d180 6 4
-rmr f115
+rm -r f115
 create txt d145 "p-unr_jzcy7k"
 undo
 undo
@@ -1858,7 +1858,7 @@ rm f69
 create txt d257 "pcrt81r0hq.5"
 tree
 write d180 11 "25 DB 58 5A BA 21 89"
-rmr d235
+rm -r d235
 append f65 "eru-l oz.5xpa "
 tree
 ls
@@ -1869,15 +1869,15 @@ mkdir f0
 write d180 13 "40 11 16 AF AF D2"
 ls
 cat f65
-rmr d18
-rmr f107
+rm -r d18
+rm -r f107
 undo
 stat f65
 cd d166
 mkdir d208
 append d10 "6g_"
 mkdir d10
-rmr d133
+rm -r d133
 write d10 7 "22"
 ls
 create txt f205 "k5pr8bb-j9"
@@ -1896,7 +1896,7 @@ create txt d224 "cgs0fyvge_x.."
 tree
 rm n72
 undo
-rmr f205
+rm -r f205
 rm d224
 create txt f111 ""
 stat d123
@@ -1932,7 +1932,7 @@ tree
 ls
 create txt d256 ""
 cat d178
-rmr d142
+rm -r d142
 write d10 7 "20 C8 3D"
 undo
 cat d178
@@ -1942,11 +1942,11 @@ write d10 7 "26 CB 26"
 cat f286
 cd d56
 top 5
-rmr f60
+rm -r f60
 mkdir d248
 stat d248
 create md f93 ""
-rmr d248
+rm -r d248
 rm f93
 find d178
 undo
@@ -1955,9 +1955,9 @@ read d10 14 1
 write d10 12 "22 F9 EC"
 write d10 7 "3F 0A"
 mkdir d164
-rmr f68
+rm -r f68
 cat f93
-rmr d164
+rm -r d164
 create txt f96 "n3-4ri"
 concat f93 d10 f93
 cd ..
@@ -1982,9 +1982,9 @@ cd ..
 mkdir f118
 tree
 cd f72
-rmr f118
-rmr d56
-rmr d256
+rm -r f118
+rm -r d56
+rm -r d256
 ls
 read d10 3 5
 tree
@@ -2001,17 +2001,17 @@ cat f168
 top 1
 read d10 5 7
 append d256 "x"
-rmr f20
-rmr d256
+rm -r f20
+rm -r d256
 read d10 1 8
-rmr f157
+rm -r f157
 write d10 3 "DC 70"
 create bin d42 "FC 0A 4C DF 58"
 truncate d42 2
 rm d164
 mkdir f238
 cat d157
-rmr d42
+rm -r d42
 cat f132
 truncate d10 10
 ls
@@ -2039,7 +2039,7 @@ top 7
 ls
 mkdir f154
 find f154
-rmr f154
+rm -r f154
 write d146 2 "C6 EE 35 F4 67 EC 53 E8"
 create bin d146 "89 9B"
 top 3
@@ -2047,21 +2047,21 @@ create bin n89 "69 E1 15 29"
 mkdir d98
 mkdir f139
 undo
-rmr d275
+rm -r d275
 mkdir f163
 undo
 write d146 13 "FF F2 86 48 86 A8"
 stat f238
 find d224
 create txt n36 "7yt8w-ng-01z"
-rmr f238
+rm -r f238
 create txt n119 "xf4yqro"
 ls
 mkdir d189
 append f104 "tmo2"
 write d146 2 "BC 40"
 create bin f241 "81 6F 5C 72 D5"
-rmr d146
+rm -r d146
 ls
 mkdir d250
 rm n89
@@ -2073,7 +2073,7 @@ read f241 4 1
 cat f104
 mkdir d96
 create md f164 "xh"
-rmr f104
+rm -r f104
 undo
 append f241 "5"
 ls
@@ -2103,7 +2103,7 @@ append d10 "i2m_c19og8j4t"
 cat f132
 top 2
 truncate d10 8
-rmr f132
+rm -r f132
 create bin n44 ""
 append f237 "x"
 tree
@@ -2115,7 +2115,7 @@ top 1
 truncate n44 1
 append n44 "fkceny-yeil2.a"
 append n36 "fz1a0w8 ktb"
-rmr d250
+rm -r d250
 write n44 3 "C4 F9 EF C8 D6"
 cd d96
 mkdir f13
@@ -2143,7 +2143,7 @@ undo
 undo
 cd f13
 top 7
-rmr f253
+rm -r f253
 mkdir f212
 mkdir n103
 rm f212
@@ -2154,7 +2154,7 @@ ls
 cd f208
 append n49 "r3yb"
 cd ..
-rmr f45
+rm -r f45
 create txt f136 "5_y828b1-dr5w"
 cd n96
 append n49 "x"
@@ -2163,7 +2163,7 @@ cd f13
 find f217
 find n49
 undo
-rmr d33
+rm -r d33
 append n49 "x"
 create txt f124 ""
 cd f13
@@ -2182,7 +2182,7 @@ cat f14
 undo
 ls
 ls
-rmr d162
+rm -r d162
 ls
 create bin n60 "C9 AA"
 undo
@@ -2200,12 +2200,12 @@ read n49 17 1
 append d288 "jim"
 ls
 create md n103 "ci"
-rmr n103
-rmr f82
+rm -r n103
+rm -r f82
 write n49 2 "15 E0 74 CD F0"
 append d288 "1uez3le33ao"
 rm d288
-rmr d67
+rm -r d67
 cat d15
 ls
 cd ..
@@ -2214,10 +2214,10 @@ rm f13
 undo
 stat n49
 find d267
-rmr n49
+rm -r n49
 truncate n44 10
 ls
-rmr f13
+rm -r f13
 undo
 append f124 "i__3cu. btx-g"
 find f124
@@ -2282,19 +2282,19 @@ mkdir f212
 tree
 write n44 2 "9D EE 58"
 read n44 15 1
-rmr n98
+rm -r n98
 cd f212
 write n44 20 "87 AD BC 64"
 ls
 ls
-rmr f274
+rm -r f274
 ls
 undo
 undo
 rm f212
 write n44 1 "A9 C9 91"
 ls
-rmr f13
+rm -r f13
 undo
 cat f124
 cd ..
@@ -2332,19 +2332,19 @@ mkdir d91
 ls
 mkdir n94
 create txt f166 "1vt7vp8s3mkx58f"
-rmr f87
+rm -r f87
 truncate n44 24
 stat f38
 cd ..
 top 6
-rmr f201
+rm -r f201
 create txt d190 "-"
 cd f55
 create txt d91 "o"
 truncate d10 10
-rmr d10
+rm -r d10
 find d280
-rmr d157
+rm -r d157
 mkdir f160
 ls
 stat d123
@@ -2362,18 +2362,18 @@ top 5
 undo
 stat d123
 cat d202
-rmr n72
+rm -r n72
 create md d158 "sghppg6d8n"
 undo
 ls
 write d180 1 "D5 F4"
 append d202 "x"
-rmr d208
+rm -r d208
 top 8
 undo
 create txt f76 "w"
 find d202
-rmr f45
+rm -r f45
 create txt n70 ""
 undo
 ls
@@ -2382,13 +2382,13 @@ create md d288 "4d0"
 write d180 18 "C5 4D D3 B5 1E 57 F6 CF"
 cd d286
 undo
-rmr d190
+rm -r d190
 find f219
 create txt f141 "8e"
 read d180 19 7
 mkdir n56
 tree
-rmr d123
+rm -r d123
 append d202 "m549-cly"
 undo
 find f82
@@ -2400,7 +2400,7 @@ tree
 create txt f250 ""
 stat d202
 undo
-rmr d123
+rm -r d123
 stat d202
 read d180 24 1
 append d202 "-8e4kmu"
@@ -2417,7 +2417,7 @@ append d180 "rdivyg8 doom1hsh"
 append f65 "aiiz-tz..z"
 read d180 11 5
 cat f65
-rmr f107
+rm -r f107
 truncate d180 28
 stat f65
 truncate d180 26
@@ -2471,7 +2471,7 @@ cd ..
 top 2
 top 3
 read d180 8 8
-rmr f115
+rm -r f115
 cd f41
 write d180 16 "7C 73 EA 4B 12"
 append f65 "snu1"
@@ -2487,7 +2487,7 @@ cd d206
 cat f65
 cat f65
 find f65
-rmr d188
+rm -r d188
 ls
 create txt f79 "eevp8"
 read d180 26 1
@@ -2503,16 +2503,16 @@ cat d232
 undo
 cd ..
 append f65 "h"
-rmr d206
+rm -r d206
 write d180 19 "53 36 F0 2B 88"
 create txt d203 ""
 append d203 "d3"
-rmr d203
+rm -r d203
 undo
 read d180 3 21
 cat d203
 write d180 4 "A0 BC 07 3A 58 4E 84 11"
-rmr d203
+rm -r d203
 read d180 5 17
 find f65
 mkdir f120
@@ -2521,7 +2521,7 @@ undo
 cat f65
 ls
 append f65 "k 7"
-rmr d280
+rm -r d280
 tree
 cd ..
 create bin f85 "E6 D3 13 58 49 95 38"
@@ -2552,9 +2552,9 @@ mkdir n21
 mkdir f255
 create bin d209 "2A"
 append f200 ".6x"
-rmr n99
+rm -r n99
 undo
-rmr f42
+rm -r f42
 append f200 "x"
 create txt d82 ".cqp"
 cd f280
@@ -2575,7 +2575,7 @@ append f200 "4f"
 write f200 0 "4E 41 C8 61 62 19 9A 3C"
 cat d156
 rm n21
-rmr d209
+rm -r d209
 undo
 stat f280
 rm n3
@@ -2589,7 +2589,7 @@ cd ..
 find f200
 append f200 "_kmkpz3zk6"
 cat d104
-rmr d82
+rm -r d82
 append f200 "x"
 write f200 1 "E1 E8 55 5D"
 truncate f200 7
@@ -2625,7 +2625,7 @@ stat f280
 create bin n76 "FD 05 40 89 09 18 50"
 append f200 "7 t..23g2._"
 cd d41
-rmr f291
+rm -r f291
 append f200 "kqg3gdydx9sdl"
 undo
 ls
@@ -2633,8 +2633,8 @@ undo
 undo
 cat d260
 rm n99
-rmr d284
-rmr d209
+rm -r d284
+rm -r d209
 ls
 read f200 0 2
 read f200 13 1
@@ -2678,7 +2678,7 @@ create txt d221 "oa4kx"
 write f200 14 "3F 24 CE"
 ls
 undo
-rmr f146
+rm -r f146
 rm f200
 truncate d197 7
 read d197 3 3
@@ -2717,7 +2717,7 @@ append n43 "x"
 tree
 cat n43
 ls
-rmr f176
+rm -r f176
 undo
 truncate d197 22
 write d197 25 "33 44 DB"
@@ -2768,7 +2768,7 @@ ls
 ls
 append d282 "x"
 find d282
-rmr f249
+rm -r f249
 cd ..
 create bin d174 "1F 73 1D C3 47 9E 40 21"
 append d282 "e5_owi0o41"
@@ -2818,7 +2818,7 @@ read d174 14 1
 create txt d39 ""
 ls
 create txt n58 "v"
-rmr f36
+rm -r f36
 mkdir f83
 create bin d59 "B8 8C B4 16 EF FD 9B"
 undo
@@ -2833,7 +2833,7 @@ find d119
 cat d156
 rm d156
 mkdir n96
-rmr n96
+rm -r n96
 write d174 10 "5E"
 create bin f184 ""
 find f184
@@ -2885,7 +2885,7 @@ mkdir d167
 create bin f284 "E5 E9 C4 7F ED"
 cat f259
 undo
-rmr f295
+rm -r f295
 ls
 cd d167
 undo
@@ -2894,7 +2894,7 @@ top 6
 create md d225 "ixig5.6z7mg889"
 undo
 create txt n54 "7h2v7mm33rawkhn"
-rmr d167
+rm -r d167
 undo
 mkdir n112
 top 2
@@ -2946,7 +2946,7 @@ ls
 read f160 0 10
 read f160 3 5
 ls
-rmr d70
+rm -r d70
 cd ..
 create bin d80 "35 E2 1E 04 F3 ED 2D 10"
 ls
@@ -2954,19 +2954,19 @@ read f160 0 8
 undo
 rm f160
 mkdir n110
-rmr d167
+rm -r d167
 cd d178
 cd d15
 write d174 15 "3B F9 5B 8A 29 06"
 create txt f8 "lvkygl_2"
-rmr f8
+rm -r f8
 undo
 truncate d174 22
 top 5
 read d174 10 7
 write d174 0 "B9 F2 4D C3 32 88 47"
 truncate d174 21
-rmr f8
+rm -r f8
 write d174 14 "8E F5 92 14"
 append f42 "xqtm.q"
 create txt d33 "f-d.9i7vmq6x5c8v"
@@ -3015,7 +3015,7 @@ append d45 "bskykjkljz t"
 cat d120
 truncate d45 4
 write d45 2 "9F F5 01 B7 38 87 BB 93"
-rmr f140
+rm -r f140
 read d45 0 10
 create bin d269 "4D 38 C2 CE AC"
 mkdir d264
@@ -3056,12 +3056,12 @@ mkdir f25
 rm f25
 undo
 mkdir d215
-rmr n33
+rm -r n33
 create bin d286 ""
 stat d45
-rmr f46
+rm -r f46
 create md n89 ""
-rmr n92
+rm -r n92
 ls
 truncate d45 9
 find d45
@@ -3073,7 +3073,7 @@ cd f25
 read d45 2 5
 mkdir f39
 mkdir d25
-rmr f39
+rm -r f39
 append d45 "58nm"
 tree
 tree
@@ -3089,7 +3089,7 @@ append d45 "x"
 find d45
 ls
 stat d45
-rmr f74
+rm -r f74
 cat f75
 read d45 12 1
 create txt n73 ""
@@ -3127,7 +3127,7 @@ read d45 4 1
 cat f132
 truncate d45 6
 rm d269
-rmr n89
+rm -r n89
 create bin d171 "E2 34 38 8D 18 12 5B"
 mkdir f92
 ls
@@ -3154,14 +3154,14 @@ undo
 create bin f53 "30"
 cd ..
 append d80 "x"
-rmr n110
-rmr f33
+rm -r n110
+rm -r f33
 find f0
 mkdir d53
 create bin f279 "12 75 B5 59 2B BD FA 1D"
 cd d259
 mkdir f212
-rmr d167
+rm -r d167
 create bin d8 "3D C5 0E A4"
 mkdir d96
 create txt d276 "ui3vpu10fc_8d"
@@ -3214,13 +3214,13 @@ find d277
 cd f61
 cd f234
 create bin f18 ""
-rmr f18
+rm -r f18
 cd ..
-rmr d108
+rm -r d108
 rm d42
 truncate d80 16
 cd d254
-rmr f21
+rm -r f21
 create txt f120 "lu-kz-ur"
 create md f68 "u7"
 undo
@@ -3258,12 +3258,12 @@ cat f0
 write d80 6 "13"
 top 1
 read d80 13 1
-rmr f211
+rm -r f211
 ls
 create txt f19 "8z4"
 rm d298
 write d80 19 "E3"
-rmr f143
+rm -r f143
 top 3
 mkdir n99
 ls
@@ -3284,7 +3284,7 @@ find f121
 ls
 stat d231
 mkdir f65
-rmr f65
+rm -r f65
 write d80 22 "EF 55 2D 86 D4 59"
 ls
 create txt n118 ""
@@ -3302,7 +3302,7 @@ cat d57
 rm d169
 cd ..
 cd ..
-rmr d244
+rm -r d244
 rm n106
 read d174 12 3
 rm d174
@@ -3319,7 +3319,7 @@ tree
 tree
 append f258 "i  y-xs"
 mkdir d280
-rmr d280
+rm -r d280
 read f258 5 6
 mkdir d262
 mkdir f260
@@ -3350,7 +3350,7 @@ read f258 6 1
 ls
 mkdir f126
 cd f104
-rmr f65
+rm -r f65
 find d154
 tree
 create txt f282 "u54g jy1deb16ls"
@@ -3364,7 +3364,7 @@ write f258 20 "08 6D 9F 4C F8"
 top 3
 mkdir d154
 mkdir d250
-rmr f256
+rm -r f256
 create txt f97 "govbjwxsrb9tm-"
 undo
 find f122
@@ -3401,7 +3401,7 @@ undo
 create bin d165 "76 8A F0"
 undo
 append f136 "y537ue-ff m1yrxql"
-rmr f113
+rm -r f113
 undo
 ls
 top 3
@@ -3444,7 +3444,7 @@ find f258
 create md f60 "28t1k19ac1arj4cu"
 cd d20
 mkdir d164
-rmr d164
+rm -r d164
 read f258 10 8
 ls
 create md d199 "8 mr.855-j"
@@ -3465,7 +3465,7 @@ cat d13
 stat d84
 undo
 create md n86 "t5.8ckf2c5"
-rmr n86
+rm -r n86
 ls
 cat d199
 undo
@@ -3503,7 +3503,7 @@ stat f198
 top 3
 cd d65
 mkdir n112
-rmr n112
+rm -r n112
 write f258 19 "9B"
 find f42
 append f42 "f5i3drt5umru6a4_w"
@@ -3514,7 +3514,7 @@ undo
 ls
 rm f42
 rm f198
-rmr f22
+rm -r f22
 append f258 "itcq5i. "
 create bin d233 ""
 read d233 0 1
@@ -3529,7 +3529,7 @@ write f258 15 "B4 21 58 5E 2E 19"
 tree
 find f258
 find f258
-rmr d21
+rm -r d21
 undo
 undo
 cd ..
@@ -3541,7 +3541,7 @@ rm d232
 rm n43
 cd d232
 undo
-rmr d138
+rm -r d138
 ls
 undo
 mkdir d129
@@ -3561,10 +3561,10 @@ create txt f132 ""
 undo
 write d197 13 "5E 3E F0 58 1D 95 4F F7"
 mkdir d166
-rmr d166
+rm -r d166
 write d197 10 "70"
 append d197 "x8i11mx4dcp-s943"
-rmr f166
+rm -r f166
 read d197 30 1
 tree
 read d197 15 2
@@ -3573,7 +3573,7 @@ create bin d252 "55 C8 3C 3D 02 86"
 mkdir n116
 mkdir d48
 ls
-rmr d48
+rm -r d48
 ls
 cd ..
 mkdir f156
@@ -3607,7 +3607,7 @@ ls
 mkdir f151
 rm f151
 mkdir d299
-rmr d232
+rm -r d232
 mkdir f206
 create txt f265 "rqg-d.sipv"
 cat f265
@@ -3631,7 +3631,7 @@ append d197 "x"
 cat d131
 find d197
 create txt f288 "v5jn"
-rmr f288
+rm -r f288
 cat f2
 undo
 cat f288
@@ -3656,7 +3656,7 @@ rm f95
 undo
 top 4
 cat f186
-rmr d128
+rm -r d128
 truncate d197 26
 append f186 "4y0pvf"
 read d197 25 1
@@ -3697,7 +3697,7 @@ tree
 tree
 find d117
 create txt n59 "ccjxs0"
-rmr n66
+rm -r n66
 truncate d197 27
 truncate d197 29
 append f178 "x"
@@ -3754,7 +3754,7 @@ undo
 write f271 12 "49 79 21 69 A2 8D D6"
 write f271 5 "A7 92 C7 FA 92 E8"
 append d113 "x"
-rmr f162
+rm -r f162
 append f271 "x"
 read f271 2 4
 rm f271
@@ -3763,14 +3763,14 @@ tree
 rm d113
 rm f271
 create md d154 ""
-rmr d154
+rm -r d154
 find d277
 cat f47
 rm d277
 mkdir f120
 read d197 30 1
 tree
-rmr f120
+rm -r f120
 append f178 "c"
 stat f145
 create txt d70 ""
@@ -3789,16 +3789,16 @@ undo
 cd ..
 find f178
 undo
-rmr f141
+rm -r f141
 append f178 "8ig0"
 mkdir d6
 truncate d197 35
-rmr d6
+rm -r d6
 write d197 33 "97 64 EA"
 append d197 "x"
 cd ..
 read d197 11 7
-rmr f178
+rm -r f178
 read d197 18 12
 concat d205 d197 d205
 ls
@@ -3815,7 +3815,7 @@ read d197 40 1
 cat f76
 write d197 32 "48 4C CD"
 read d197 32 2
-rmr d93
+rm -r d93
 rm f232
 create bin f191 "54"
 append f191 "kz."
@@ -3827,10 +3827,10 @@ create bin f201 "F3 7A 1C 5A"
 cd f107
 ls
 undo
-rmr f201
+rm -r f201
 create bin d138 ""
 truncate f191 4
-rmr f107
+rm -r f107
 ls
 truncate f191 5
 truncate f191 4
@@ -3846,7 +3846,7 @@ truncate f191 10
 append f191 "vdfp0xzw3-m-"
 ls
 mkdir f191
-rmr d255
+rm -r d255
 cd ..
 create txt d175 "k"
 read d197 12 20
@@ -3854,7 +3854,7 @@ truncate d197 35
 cd ..
 undo
 undo
-rmr d205
+rm -r d205
 read d197 13 3
 cd ..
 cat f186
@@ -3872,7 +3872,7 @@ ls
 find d197
 undo
 truncate d197 34
-rmr f62
+rm -r f62
 stat d129
 undo
 create bin d213 "5B A9 3A FE B9 92 64"
@@ -3886,7 +3886,7 @@ create txt f55 "athoemsfhf"
 write d213 2 "0C C5"
 truncate d213 7
 stat f50
-rmr f152
+rm -r f152
 top 4
 cat d19
 stat d129
@@ -3898,13 +3898,13 @@ undo
 write d213 9 "4A"
 truncate d213 8
 cat d102
-rmr d226
+rm -r d226
 append d213 "- f9e"
 mkdir f232
 cd n23
-rmr d119
+rm -r d119
 ls
-rmr f6
+rm -r f6
 create md n0 "66o-"
 stat d129
 rm f55
@@ -3921,7 +3921,7 @@ read d197 28 4
 read d197 8 19
 find d197
 cat n116
-rmr n3
+rm -r n3
 mkdir d63
 write d197 18 "FB AD 10"
 rm f226
@@ -3933,7 +3933,7 @@ create bin f125 "75 04 58 3F EF 0E 5A AD"
 cd f280
 top 7
 mkdir n107
-rmr n10
+rm -r n10
 cat d178
 find d197
 tree
@@ -3995,10 +3995,10 @@ read d197 31 2
 rm d53
 rm f205
 ls
-rmr f231
+rm -r f231
 read d197 13 7
 truncate d197 33
-rmr n4
+rm -r n4
 undo
 create txt f147 "s2vbgqspcmh2"
 undo
@@ -4046,7 +4046,7 @@ append f166 "x"
 create md f231 "go1y-t0w5ssz5z9"
 write f166 2 "5E 16 6E 10 57 5B 7C AC"
 create md d52 "_lx5opef"
-rmr f166
+rm -r f166
 cat f142
 rm f142
 tree
@@ -4072,7 +4072,7 @@ cat f50
 find d197
 append d197 "pp0-"
 rm d197
-rmr f291
+rm -r f291
 create md d191 ""
 truncate d209 0
 stat f280
@@ -4109,7 +4109,7 @@ tree
 undo
 read d209 0 1
 top 7
-rmr d38
+rm -r d38
 mkdir n40
 read d209 6 1
 mkdir f215
@@ -4124,7 +4124,7 @@ read d209 0 1
 append d209 "x"
 truncate d209 1
 read d209 0 1
-rmr f125
+rm -r f125
 cat f225
 mkdir f269
 top 5
@@ -4142,9 +4142,9 @@ cd n116
 cat d111
 create txt f147 ""
 append f147 "l.d4kjtqpftrp"
-rmr f147
+rm -r f147
 undo
-rmr f147
+rm -r f147
 ls
 mkdir d123
 create md f134 "ucd5ltnzpe3"
@@ -4191,11 +4191,11 @@ tree
 read d209 2 2
 find d13
 top 3
-rmr d184
+rm -r d184
 append d209 "fg2m67ehzzrkr"
 ls
 rm d240
-rmr f228
+rm -r f228
 create txt d168 "s_3"
 truncate d209 3
 find d209
@@ -4210,7 +4210,7 @@ undo
 undo
 cd f229
 read d209 2 2
-rmr f219
+rm -r f219
 cat n1
 ls
 cat n37
@@ -4218,10 +4218,10 @@ ls
 read d209 0 3
 top 7
 ls
-rmr f150
+rm -r f150
 ls
 ls
-rmr n102
+rm -r n102
 top 1
 undo
 create txt f259 "llxs6g.n6 b czzj"
@@ -4275,7 +4275,7 @@ undo
 ls
 cd ..
 undo
-rmr d21
+rm -r d21
 cat f166
 create txt f171 "24h1tb9a"
 write d154 6 "1D 8E B0 E9 92 CE D6"
@@ -4317,7 +4317,7 @@ write d154 22 "48 BC 77 51"
 cd d276
 tree
 ls
-rmr d283
+rm -r d283
 create bin f116 "E9 AD A6 61 BD"
 truncate f116 4
 read f116 2 1
@@ -4340,7 +4340,7 @@ truncate f116 8
 ls
 stat d3
 cd f5
-rmr n40
+rm -r n40
 create md n95 "pkjog5n5l"
 ls
 create txt f219 "cejygk9wyk53_8nxb"
@@ -4349,10 +4349,10 @@ append f116 "x"
 rm f177
 truncate f116 9
 cd ..
-rmr n67
+rm -r n67
 truncate f116 8
 create bin d197 ""
-rmr d140
+rm -r d140
 append f116 "sb8"
 mkdir n90
 create txt d3 ""
@@ -4398,7 +4398,7 @@ append n77 "ydlf02u3"
 stat f65
 append n77 "54bsu3k17o9s_"
 read f116 1 7
-rmr n77
+rm -r n77
 create bin d23 "86 D9 86 E1"
 write f116 8 "5A 55 2F AD"
 mkdir d282
@@ -4415,7 +4415,7 @@ cd ..
 rm f199
 top 8
 create bin d80 "74 B8"
-rmr d205
+rm -r d205
 mkdir f258
 append f219 "  "
 truncate d80 0
@@ -4436,11 +4436,11 @@ mkdir f181
 read d80 2 4
 cd f96
 append d80 "j"
-rmr d40
+rm -r d40
 cd ..
 append f116 "vc52s7gwyh"
 tree
-rmr f241
+rm -r f241
 mkdir f221
 ls
 append f116 "h wz3t2ix"
@@ -4485,7 +4485,7 @@ create txt d59 ""
 create txt f223 "mivn9o3e93-"
 ls
 top 8
-rmr f223
+rm -r f223
 mkdir d5
 cd f221
 cd f5
@@ -4510,11 +4510,11 @@ undo
 find n114
 undo
 cd ..
-rmr f65
+rm -r f65
 ls
 rm d239
 cat n113
-rmr f175
+rm -r f175
 read d80 0 1
 cat d23
 stat d82
@@ -4582,7 +4582,7 @@ rm d49
 read d80 0 5
 write d80 5 "F9 5E 0D E0 67 3B CD"
 ls
-rmr d188
+rm -r d188
 stat d23
 truncate d80 13
 write d80 0 "FE 6D"
@@ -4593,7 +4593,7 @@ create txt f202 "naigc40-fn4.snp8."
 stat f202
 append f202 "5u9"
 create txt d116 ""
-rmr d116
+rm -r d116
 mkdir f154
 concat f202 d80 f202
 tree
@@ -4623,7 +4623,7 @@ create md n101 ""
 read n110 5 3
 top 8
 top 4
-rmr n110
+rm -r n110
 write d80 0 "36 85 9E"
 stat f202
 cd f154
@@ -4657,7 +4657,7 @@ create md f214 "dr"
 rm d282
 stat d23
 write d80 3 "45 92"
-rmr d23
+rm -r d23
 stat d282
 append d233 "lyv0lxjd"
 concat d233 d80 d233
@@ -4672,7 +4672,7 @@ write d80 8 "19 B1 07 38"
 read d80 7 4
 stat d282
 cat d233
-rmr f191
+rm -r f191
 cat d233
 top 3
 stat d282
@@ -4698,8 +4698,8 @@ rm f174
 top 7
 cat d233
 rm d161
-rmr f133
-rmr f149
+rm -r f133
+rm -r f149
 undo
 top 8
 append d233 "jl322-dl9"
@@ -4711,7 +4711,7 @@ read f32 0 1
 create bin d272 "F1"
 cd ..
 append f219 "x"
-rmr n16
+rm -r n16
 cd d160
 find d233
 write f32 0 "45 A6 EF 6A F2 AC 18"
@@ -4721,7 +4721,7 @@ read f32 4 1
 cat d234
 append d233 "ihc-"
 create txt f11 "i610pc_9whiv6fy"
-rmr d294
+rm -r d294
 rm f232
 create md d113 ""
 append d233 "t14o6g9lezqp6pr1"
@@ -4734,7 +4734,7 @@ top 4
 mkdir f120
 find f26
 undo
-rmr f29
+rm -r f29
 cat f219
 create txt d130 "z"
 cd d160
@@ -4746,7 +4746,7 @@ cd d33
 ls
 ls
 cat f219
-rmr f181
+rm -r f181
 append f219 "x"
 create txt d117 "9"
 tree
@@ -4765,11 +4765,11 @@ ls
 ls
 mkdir f156
 rm f156
-rmr f235
+rm -r f235
 mkdir d268
 truncate d80 9
 undo
-rmr d268
+rm -r d268
 ls
 append f219 "x"
 ls
@@ -4778,7 +4778,7 @@ mkdir d126
 mkdir d183
 mkdir d195
 write d80 7 "D0 BB B6 35 8D A2 C9 EA"
-rmr d183
+rm -r d183
 mkdir n79
 undo
 create txt d126 "8"
@@ -4788,7 +4788,7 @@ ls
 mkdir d195
 write d80 9 "98 D8 08 E0"
 ls
-rmr d195
+rm -r d195
 cd d44
 rm d126
 undo
@@ -4804,7 +4804,7 @@ concat n42 d80 n42
 undo
 ls
 cd d126
-rmr d285
+rm -r d285
 read d80 22 1
 cd ..
 create txt f152 "c"
@@ -4816,7 +4816,7 @@ mkdir f101
 append f219 "2"
 cat f252
 cat f219
-rmr f101
+rm -r f101
 undo
 truncate d80 20
 undo
@@ -4833,15 +4833,15 @@ rm d80
 find f219
 ls
 ls
-rmr f258
+rm -r f258
 append d144 "x"
 undo
 find d16
 create txt d90 ""
-rmr d144
+rm -r d144
 undo
 undo
-rmr f258
+rm -r f258
 append f219 " j1sx8blt-alufu1y"
 undo
 cd d160
@@ -4902,7 +4902,7 @@ create md n77 "aij3jxblo87"
 create bin d79 ""
 write f32 5 "54 3B"
 mkdir f58
-rmr d113
+rm -r d113
 rm f247
 cd f139
 cd d82
@@ -4947,7 +4947,7 @@ mkdir f187
 find f219
 top 7
 append f128 "h7hagvcx.bx1k"
-rmr d117
+rm -r d117
 tree
 mkdir d144
 top 8
@@ -4958,7 +4958,7 @@ rm d179
 ls
 read f128 1 1
 find d44
-rmr d162
+rm -r d162
 truncate f128 0
 find f106
 undo
@@ -4977,14 +4977,14 @@ undo
 write f128 2 "C1 97 BB 48 9F"
 cd ..
 mkdir f128
-rmr d88
+rm -r d88
 top 1
 rm f219
 read f128 2 5
 ls
 mkdir d92
 mkdir f209
-rmr n15
+rm -r n15
 cd f88
 cd d82
 create txt f152 "x"
@@ -5054,9 +5054,9 @@ create txt f1 ""
 create txt f283 "kz104fl5.szov7_5"
 write d81 8 "03 AE"
 top 1
-rmr f283
+rm -r f283
 truncate d81 14
-rmr f1
+rm -r f1
 write d81 12 "06 02 57"
 cd ..
 cd ..
@@ -5064,7 +5064,7 @@ append f152 "7fp8"
 create md d178 "paj49b1o_daj4fwr6"
 rm f152
 create bin d171 ""
-rmr f57
+rm -r f57
 read d171 0 1
 mkdir d278
 append d178 "x"
@@ -5108,7 +5108,7 @@ ls
 find d97
 find d145
 rm f4
-rmr n24
+rm -r n24
 cat d43
 cd ..
 append d171 "x"
@@ -5156,13 +5156,13 @@ write f102 4 "53 F6"
 find d178
 read f102 4 2
 stat d278
-rmr d278
+rm -r d278
 truncate f102 3
 rm n62
 truncate f102 2
 find d178
 undo
-rmr n12
+rm -r n12
 ls
 ls
 create txt d11 "teylk-18zdet8a_m5"
@@ -5178,7 +5178,7 @@ find f128
 create txt d135 "o_1lg5nrfxepo."
 stat d160
 truncate f128 7
-rmr d160
+rm -r d160
 tree
 ls
 append f128 "x"
@@ -5208,7 +5208,7 @@ read f128 0 2
 undo
 append f128 "x"
 stat f128
-rmr f56
+rm -r f56
 undo
 undo
 append f128 "m3i"
@@ -5233,20 +5233,20 @@ undo
 cd ..
 read f116 13 1
 append f116 "stl3dhu5bi"
-rmr f157
-rmr f116
+rm -r f157
+rm -r f116
 truncate d154 29
 undo
 cat d3
 cd ..
 find d154
-rmr d299
+rm -r d299
 create bin d61 "C6 EB 1B 6A DB 6C"
 ls
 create txt n46 "sl7ncg20"
 ls
 top 1
-rmr n61
+rm -r n61
 cd n107
 create txt n2 "apqjbg"
 write d154 21 "12 5D 6A 4F"
@@ -5254,7 +5254,7 @@ mkdir d253
 stat d3
 truncate d154 25
 ls
-rmr f57
+rm -r f57
 rm f181
 undo
 read d154 18 5
@@ -5265,7 +5265,7 @@ top 7
 ls
 mkdir f138
 write d154 0 "EE 83 BE D9 2E 46 61 F8"
-rmr d59
+rm -r d59
 stat d3
 undo
 undo
@@ -5279,7 +5279,7 @@ cd f177
 top 6
 read d154 17 4
 read d154 18 4
-rmr n43
+rm -r n43
 mkdir f28
 append d3 "bly-j86mo4u"
 mkdir d68
@@ -5317,7 +5317,7 @@ mkdir n47
 undo
 cd d184
 create bin d223 "DB F0 69 2A 1E"
-rmr d223
+rm -r d223
 create bin f297 "05 3D 4F"
 create bin f162 "FD 14"
 undo
@@ -5340,7 +5340,7 @@ undo
 write f297 3 "E4 41 D1 1E"
 cd f242
 mkdir d72
-rmr d72
+rm -r d72
 ls
 mkdir f1
 undo
@@ -5399,7 +5399,7 @@ ls
 cat n77
 create md n44 ""
 ls
-rmr f154
+rm -r f154
 ls
 read f244 6 1
 write f244 3 "47 82 BC 9F 7B"
@@ -5481,7 +5481,7 @@ rm f86
 cat f78
 append f78 "6tx."
 ls
-rmr f78
+rm -r f78
 top 4
 cd f295
 ls
@@ -5497,7 +5497,7 @@ append d107 "x"
 undo
 append d107 "gf72-"
 stat f295
-rmr f78
+rm -r f78
 read d107 1 1
 undo
 create md f296 ""
@@ -5542,9 +5542,9 @@ create md d52 "7gea0tvcjy0ia_6cp"
 append d201 "shdtf"
 cat d201
 create txt d144 ""
-rmr d144
+rm -r d144
 cd n83
-rmr f150
+rm -r f150
 undo
 undo
 top 7
@@ -5565,7 +5565,7 @@ mkdir d223
 read d116 1 1
 mkdir d120
 append d201 "x"
-rmr n107
+rm -r n107
 cd d158
 undo
 ls
@@ -5588,12 +5588,12 @@ find d201
 find n55
 create txt n118 "7z2koui1"
 mkdir f51
-rmr n118
+rm -r n118
 write d116 7 "EC"
 read d116 1 4
 rm d116
 cat d201
-rmr d177
+rm -r d177
 create txt f191 "bc_br9 _h0a3"
 find d22
 undo
@@ -5640,7 +5640,7 @@ write d154 9 "ED B4 4B 6C 94"
 top 6
 top 6
 cd f87
-rmr d15
+rm -r d15
 ls
 ls
 rm f109
@@ -5677,14 +5677,14 @@ ls
 cd ..
 mkdir f90
 truncate d154 18
-rmr n58
+rm -r n58
 append d201 "x"
 top 1
 cd ..
-rmr f87
+rm -r f87
 write d154 3 "CA 0F 8F E4 1A 7F 05"
 find d146
-rmr d146
+rm -r d146
 mkdir d26
 rm f277
 rm f109
@@ -5703,7 +5703,7 @@ create txt d141 "uz"
 mkdir n59
 create md f115 "9nftej5"
 tree
-rmr d141
+rm -r d141
 cd f177
 find f159
 ls
@@ -5755,11 +5755,11 @@ tree
 create bin d39 "09 B6 7B A4 40 BE 4F C0"
 cat n70
 rm d253
-rmr f70
+rm -r f70
 cat d270
 cd ..
 create txt n46 ""
-rmr f59
+rm -r f59
 read d154 16 2
 write d154 0 "29"
 undo
@@ -5782,7 +5782,7 @@ create txt d270 "m"
 read d154 0 12
 ls
 cat f147
-rmr n7
+rm -r n7
 undo
 undo
 cd ..
@@ -5814,8 +5814,8 @@ tree
 find n18
 cd n100
 ls
-rmr n37
-rmr n18
+rm -r n37
+rm -r n18
 create txt f255 "10gxib2um"
 ls
 write d154 11 "AC ED 9C 48 D0 FC"
@@ -5846,7 +5846,7 @@ write d287 1 "DB 95 A5 D1 A3 4C"
 ls
 mkdir f78
 create bin f293 ""
-rmr f293
+rm -r f293
 append d287 "9g3d1ozl"
 write d287 2 "1E 62 0C 23 1D 1D F1"
 write d287 10 "B5 E0 BE DC EA 87"
@@ -5872,7 +5872,7 @@ cat f255
 ls
 mkdir f166
 write d154 17 "36 EA 0E 46 A2 03 A3"
-rmr f166
+rm -r f166
 mkdir f104
 write d154 13 "15 81 0B 2A B8"
 ls
@@ -5929,12 +5929,12 @@ cd d196
 ls
 ls
 create bin d42 ""
-rmr d42
-rmr n73
-rmr d192
-rmr d249
+rm -r d42
+rm -r n73
+rm -r d192
+rm -r d249
 ls
-rmr d70
+rm -r d70
 ls
 ls
 mkdir d201
@@ -5969,7 +5969,7 @@ ls
 truncate d154 31
 ls
 tree
-rmr d171
+rm -r d171
 cd ..
 mkdir f57
 mkdir d40
@@ -5979,7 +5979,7 @@ rm n102
 ls
 cat f255
 cat f255
-rmr f172
+rm -r f172
 append f255 "tti"
 read d154 24 1
 rm d196
@@ -6006,16 +6006,16 @@ undo
 cd ..
 create bin d90 "88 92 C8"
 tree
-rmr f57
+rm -r f57
 cat d162
 append f58 "x"
 rm d90
 read d154 33 1
 undo
 create txt d90 ""
-rmr d196
+rm -r d196
 read d90 0 1
-rmr f151
+rm -r f151
 truncate d90 6
 cd ..
 top 2
@@ -6025,14 +6025,14 @@ append f58 "x"
 mkdir f193
 read d90 0 1
 read d90 0 5
-rmr f193
+rm -r f193
 truncate d90 5
 mkdir d201
 rm d90
 ls
 truncate d154 33
 create bin f189 ""
-rmr f189
+rm -r f189
 rm f58
 rm d201
 tree
@@ -6053,7 +6053,7 @@ rm f205
 mkdir f68
 create bin d116 "10 83 03 A2 72 46 22 3B"
 write d116 0 "64 A7 ED 7F D8 59 38 7A"
-rmr n108
+rm -r n108
 top 3
 undo
 rm n108
@@ -6063,13 +6063,13 @@ stat n73
 create txt f138 "vbmavvccc"
 create txt d193 "hn3775"
 append n73 "mn"
-rmr d101
+rm -r d101
 rm f138
 mkdir n76
 write d116 0 "9C D2 26"
 cd f140
 read d116 6 2
-rmr d193
+rm -r d193
 append n73 "gxvxml8 oynpx"
 cd n76
 ls
@@ -6084,12 +6084,12 @@ read d282 0 1
 mkdir f289
 create txt f190 "6rf.qxv6d3qn"
 cd f289
-rmr n40
+rm -r n40
 append d282 "x"
 write d282 2 "E1 68 B1 61 BE"
 create md d160 "os_4wm"
 find f196
-rmr d160
+rm -r d160
 ls
 append f121 "x"
 cd ..
@@ -6098,7 +6098,7 @@ append f121 "zctr.okjce"
 create md f148 ""
 stat f148
 ls
-rmr f148
+rm -r f148
 append f121 "x"
 undo
 cat f121
@@ -6116,10 +6116,10 @@ append d115 "x"
 cat d115
 ls
 cat d115
-rmr d115
+rm -r d115
 write f248 1 "F7 D5"
 write f248 6 "77 E7"
-rmr f201
+rm -r f201
 append f248 " 9bdoh1dzs7"
 stat f248
 stat f248
@@ -6135,10 +6135,10 @@ tree
 create bin f250 ""
 ls
 append f250 "x"
-rmr d22
+rm -r d22
 create bin f292 "73"
 ls
-rmr f139
+rm -r f139
 append f250 "qlm9aza44q"
 stat d271
 write f250 3 "CC F3 F0"
@@ -6161,7 +6161,7 @@ ls
 top 1
 mkdir f289
 cd ..
-rmr f68
+rm -r f68
 truncate d116 9
 mkdir d101
 cat n73
@@ -6172,7 +6172,7 @@ read d116 8 1
 rm n76
 undo
 rm n73
-rmr d116
+rm -r d116
 mkdir f239
 cd f239
 undo
@@ -6218,7 +6218,7 @@ rm d151
 stat n76
 write d154 26 "85 9B A6 F4 41 13 E2 68"
 rm d181
-rmr f296
+rm -r f296
 truncate d154 35
 cd ..
 create txt f222 "9pm6"
@@ -6259,7 +6259,7 @@ concat f159 n1 f159
 mkdir n71
 rm n76
 write n1 2 "EE 49 FB 72 26 8A"
-rmr f152
+rm -r f152
 create txt f180 "4zn-eytq8h"
 find d105
 find f280
@@ -6267,7 +6267,7 @@ append f159 "x"
 rm f180
 find f159
 create txt f272 "zt13a8a_9qo"
-rmr n16
+rm -r n16
 write n1 11 "49 3A F3 28 75 72"
 rm f28
 cat f236
@@ -6293,12 +6293,12 @@ create bin d219 ""
 write d219 2 "E8 01 A3 36 7C 04"
 find f159
 cd n76
-rmr f273
+rm -r f273
 stat f121
 find f121
 write d219 8 "94 44 93 85"
 undo
-rmr f121
+rm -r f121
 tree
 top 1
 cd ..
@@ -6355,7 +6355,7 @@ mkdir f131
 mkdir f124
 cd f131
 ls
-rmr d130
+rm -r d130
 truncate d219 11
 mkdir f252
 create txt d185 "9boh4_0y.c8"
@@ -6398,10 +6398,10 @@ create txt d279 "i6aetk_g"
 undo
 rm f138
 ls
-rmr f85
+rm -r f85
 ls
 mkdir n26
-rmr n26
+rm -r n26
 read d219 5 9
 stat d214
 truncate d219 21
@@ -6418,7 +6418,7 @@ truncate d219 23
 stat f184
 find n85
 write d219 9 "3D F4 61 06 7C"
-rmr f287
+rm -r f287
 tree
 read d219 21 2
 cat d107
@@ -6433,11 +6433,11 @@ truncate d219 24
 tree
 cd ..
 ls
-rmr d219
+rm -r d219
 cat n85
 mkdir n54
 ls
-rmr d231
+rm -r d231
 cat n85
 cd f131
 find d54
@@ -6493,9 +6493,9 @@ truncate n1 37
 stat d126
 read n1 25 4
 rm d126
-rmr f198
+rm -r f198
 ls
-rmr d38
+rm -r d38
 mkdir d55
 create bin f153 ""
 undo
@@ -6507,7 +6507,7 @@ write n1 14 "21 A0 54 97"
 read n1 30 4
 create bin d68 "84 63 32 10 E3 73 FF 4B"
 create md f294 ""
-rmr d68
+rm -r d68
 create txt f154 ""
 create bin n22 "FD 82 4C 9C 5C"
 rm n22
@@ -6554,7 +6554,7 @@ ls
 ls
 mkdir f29
 top 5
-rmr f29
+rm -r f29
 cd f92
 write n1 3 "B9 BF E9 AA 76 A7 BB 69"
 read n1 35 1
@@ -6591,7 +6591,7 @@ truncate n1 40
 create md n95 "_"
 undo
 truncate n1 39
-rmr d259
+rm -r d259
 undo
 mkdir f159
 truncate n1 40
@@ -6661,7 +6661,7 @@ mkdir f205
 create txt d118 ""
 write n1 39 "77"
 create txt d90 "4krspacm"
-rmr f271
+rm -r f271
 rm d90
 cd d152
 undo
@@ -6708,7 +6708,7 @@ stat n95
 write f28 13 "58 46 72 F8 68 14"
 mkdir d154
 read f28 13 1
-rmr d51
+rm -r d51
 rm d154
 stat f80
 write f28 11 "D2 28 44 65 96"
@@ -6716,7 +6716,7 @@ rm f159
 find n109
 top 2
 rm d285
-rmr f174
+rm -r f174
 write f28 20 "88 26 5E EF 33 D5 AD"
 mkdir d232
 create md f17 ""
@@ -6735,7 +6735,7 @@ tree
 append f80 "r jfwd43_ig68wh"
 create md d228 "pyzf6jtcbrgtd"
 rm f28
-rmr f125
+rm -r f125
 cat f80
 ls
 append f80 "4"
@@ -6746,7 +6746,7 @@ create txt n82 "tspk97"
 mkdir d233
 append f80 "9n.2ryc1"
 read n1 35 2
-rmr d217
+rm -r d217
 read n1 3 32
 ls
 find f80
@@ -6777,7 +6777,7 @@ append f80 "x"
 cd d69
 tree
 create txt f272 ""
-rmr f272
+rm -r f272
 top 5
 truncate d30 13
 undo
@@ -6815,16 +6815,16 @@ truncate d30 21
 cat f80
 truncate d30 23
 mkdir f295
-rmr f295
+rm -r f295
 write d30 9 "6E 12 91 D2 18 7B C3 92"
 stat f80
 find f80
 undo
-rmr n68
+rm -r n68
 append f80 "v"
 append f80 "x"
 create txt f72 "5zskcq5jeub7crp0o"
-rmr n72
+rm -r n72
 append f80 "x"
 create bin d140 ""
 rm n112
@@ -6840,7 +6840,7 @@ rm d69
 cd n56
 create txt f49 ""
 rm f49
-rmr d274
+rm -r d274
 truncate d30 21
 cd ..
 read d30 25 1
@@ -6857,7 +6857,7 @@ find f134
 create md f251 "wvu7hinmdw_b9-f1"
 stat d41
 stat d41
-rmr d41
+rm -r d41
 create txt n60 ""
 ls
 rm f251
@@ -6872,7 +6872,7 @@ create txt d57 ""
 top 2
 cat n117
 truncate d30 20
-rmr n117
+rm -r n117
 ls
 mkdir n101
 undo
@@ -6893,7 +6893,7 @@ undo
 top 5
 find f80
 find f100
-rmr d233
+rm -r d233
 cd f181
 undo
 ls
@@ -6901,7 +6901,7 @@ ls
 cd f3
 cat f80
 ls
-rmr f290
+rm -r f290
 mkdir d71
 undo
 stat f158
@@ -6915,7 +6915,7 @@ mkdir f146
 append f80 "x"
 ls
 top 5
-rmr f132
+rm -r f132
 cat f80
 find f80
 create txt n15 ""
@@ -6951,7 +6951,7 @@ truncate d37 16
 create md f219 "ncl.puh6sb_t2brn"
 create bin f107 ""
 write d37 12 "C7 75 3C ED 1D EE F6 D4"
-rmr f107
+rm -r f107
 tree
 undo
 cd f48
@@ -6965,7 +6965,7 @@ create md d13 ""
 ls
 read d37 7 8
 mkdir f132
-rmr d91
+rm -r d91
 cat n90
 create txt n74 ""
 ls
@@ -6987,7 +6987,7 @@ find f80
 find f80
 undo
 ls
-rmr f107
+rm -r f107
 cd ..
 write n1 34 "FF FC 31 BB"
 undo
@@ -7051,10 +7051,10 @@ find f46
 read n1 9 14
 read n1 38 4
 undo
-rmr n82
+rm -r n82
 append n1 "u"
 mkdir d175
-rmr d175
+rm -r d175
 ls
 rm d13
 read n1 54 1
@@ -7085,7 +7085,7 @@ tree
 cd ..
 create bin f15 "C8"
 tree
-rmr n54
+rm -r n54
 cd n71
 ls
 cd ..
@@ -7094,9 +7094,9 @@ find d115
 rm n85
 cd n89
 cd ..
-rmr f15
+rm -r f15
 read f248 0 2
-rmr f131
+rm -r f131
 rm f124
 cd n71
 read f248 3 2
@@ -7123,7 +7123,7 @@ truncate f131 2
 read f131 1 1
 read f131 1 1
 create txt f238 "wir _g._.yoeeqp"
-rmr f199
+rm -r f199
 stat d148
 create md d148 ""
 undo
@@ -7151,7 +7151,7 @@ mkdir n38
 tree
 tree
 undo
-rmr f260
+rm -r f260
 write f131 5 "4C CF 92"
 write f131 7 "D6 C8 0E 2C 01 DF AC 0F"
 ls
@@ -7159,7 +7159,7 @@ top 2
 append f131 "et-6b"
 create md f101 "efqfz3j0c9.udb7"
 append f131 "bvkt7nwx5"
-rmr d154
+rm -r d154
 create md d249 "wu"
 rm f131
 stat d148
@@ -7190,7 +7190,7 @@ top 7
 cd d148
 read f156 0 2
 find f101
-rmr f204
+rm -r f204
 top 2
 find f177
 top 4
@@ -7198,7 +7198,7 @@ cat f101
 write f156 1 "0A 9D 28 8B FA"
 stat d148
 mkdir n52
-rmr n52
+rm -r n52
 read f156 9 1
 tree
 append f101 "x"
@@ -7207,7 +7207,7 @@ ls
 rm d227
 read f156 3 2
 cd ..
-rmr f70
+rm -r f70
 write f156 5 "76 8A 09 09 3C E1"
 create bin d192 "4D 7A 33 25 E9 CA 4C"
 read f156 6 3
@@ -7228,20 +7228,20 @@ find f101
 top 1
 mkdir d163
 rm n94
-rmr n13
+rm -r n13
 mkdir n8
 stat d148
 create bin n19 "B6 57 DD"
 mkdir f38
 undo
-rmr d215
+rm -r d215
 ls
 cat f101
-rmr n95
+rm -r n95
 find f10
 mkdir n30
 ls
-rmr d22
+rm -r d22
 concat f101 f156 f101
 create txt f267 "yakfrpal2 "
 cat f101
@@ -7268,14 +7268,14 @@ read f156 8 6
 rm d163
 undo
 tree
-rmr f199
+rm -r f199
 mkdir f173
 cat f101
 ls
 tree
 read f156 7 3
-rmr d192
-rmr f133
+rm -r d192
+rm -r f133
 create txt d243 "iruym_"
 rm n19
 create txt d126 "gw-7-"
@@ -7286,7 +7286,7 @@ stat d148
 append f101 "x"
 read f156 0 10
 undo
-rmr n8
+rm -r n8
 ls
 mkdir n24
 stat d148
@@ -7303,7 +7303,7 @@ append f101 "4_egh6u3qgd-6"
 undo
 read f156 6 5
 append f101 "x"
-rmr f101
+rm -r f101
 create bin d118 "F4 09 C6 A9 01 71"
 undo
 undo
@@ -7311,7 +7311,7 @@ stat d148
 write f156 17 "3E 30"
 undo
 write f156 2 "97 BC FA 0E 70"
-rmr f104
+rm -r f104
 create txt d115 "kw84zc"
 tree
 create txt d49 ""
@@ -7337,7 +7337,7 @@ ls
 mkdir d263
 create txt n78 ""
 cat d90
-rmr d156
+rm -r d156
 read f156 4 2
 undo
 read f156 0 8
@@ -7366,7 +7366,7 @@ cat f201
 create txt f239 "b0 vk5.z62-c"
 stat d148
 tree
-rmr f267
+rm -r f267
 cat d245
 top 2
 ls
@@ -7388,7 +7388,7 @@ mkdir n80
 find f156
 rm d44
 mkdir n3
-rmr d53
+rm -r d53
 undo
 cat f124
 ls
@@ -7401,7 +7401,7 @@ undo
 ls
 top 6
 rm d263
-rmr n112
+rm -r n112
 read f156 0 1
 cd n3
 ls
@@ -7432,14 +7432,14 @@ cd d81
 stat d274
 undo
 create txt d170 "ar.xedru.u7mnhkm"
-rmr n84
-rmr d2
+rm -r n84
+rm -r d2
 cd d81
 write f143 0 "87"
 read f143 1 1
 read f143 0 3
 mkdir d167
-rmr d167
+rm -r d167
 create txt f73 "gvnq-3wx_v"
 stat f73
 rm f73
@@ -7455,7 +7455,7 @@ cd d101
 find d199
 read f143 0 3
 stat d101
-rmr f157
+rm -r f157
 create txt n5 "_u-"
 read f143 0 1
 rm n5
@@ -7483,16 +7483,16 @@ find d199
 read f143 0 2
 top 6
 find d199
-rmr d101
+rm -r d101
 mkdir f148
 ls
 create bin f239 "6A 36 4E 74 3A 34 45"
 stat d199
 ls
 append f239 "  q0oe84fv5ngkx6x"
-rmr f239
+rm -r f239
 truncate f143 6
-rmr f148
+rm -r f148
 write f143 8 "FE D8 D5 16 56 F5 F0 16"
 mkdir d146
 undo
@@ -7501,11 +7501,11 @@ concat d199 f143 d199
 create md d199 "8m540jphvr"
 create txt n77 "zto"
 read f143 7 6
-rmr n77
+rm -r n77
 find d199
 read f143 13 3
 mkdir d243
-rmr d199
+rm -r d199
 find d274
 stat d243
 append d274 "v g-5vj7dnz"
@@ -7533,10 +7533,10 @@ create bin n0 ""
 undo
 find f18
 mkdir f4
-rmr f4
+rm -r f4
 undo
 undo
-rmr f18
+rm -r f18
 read f143 8 3
 rm d89
 ls
@@ -7548,7 +7548,7 @@ stat d239
 read f143 4 6
 create txt n45 "3v5-l74pf"
 cat n64
-rmr d89
+rm -r d89
 write f143 10 "A1"
 append n64 "x"
 rm f204
@@ -7561,7 +7561,7 @@ create md d139 "i.y-00v"
 stat f22
 create bin d139 "71 BB 80 24 02 B9 2B"
 cd f204
-rmr f15
+rm -r f15
 create md d78 "c."
 create bin f149 "3E"
 tree
@@ -7593,7 +7593,7 @@ mkdir d106
 cd n83
 mkdir d163
 rm d106
-rmr d142
+rm -r d142
 write f149 5 "B1 05 2E 15 58 47 C5 D9"
 create bin f19 "DF DE 59 AB 9D 82 EF 79"
 truncate f19 10
@@ -7628,7 +7628,7 @@ create txt d286 "fvc1p41pgck"
 undo
 cd ..
 cat d78
-rmr d231
+rm -r d231
 undo
 find d1
 rm d110
@@ -7647,7 +7647,7 @@ read f143 5 10
 cd ..
 mkdir d194
 tree
-rmr n90
+rm -r n90
 mkdir f45
 stat n46
 mkdir f282
@@ -7659,10 +7659,10 @@ mkdir n113
 read f143 17 1
 truncate f143 21
 cd ..
-rmr f77
+rm -r f77
 append d131 ".w cnbq7sl9iv6jkw"
 create md d51 "y"
-rmr f31
+rm -r f31
 tree
 ls
 create md f211 "ntjkqlvnx"
@@ -7674,12 +7674,12 @@ create txt f2 "6wvck-91"
 mkdir f77
 create md f77 "z.yknntps"
 read f143 16 5
-rmr f112
+rm -r f112
 rm f77
 ls
 create txt f205 "w8cynco"
 truncate f143 19
-rmr f2
+rm -r f2
 rm d195
 rm f143
 rm d51
@@ -7706,12 +7706,12 @@ undo
 truncate f156 11
 write f156 1 "FE EE"
 ls
-rmr f146
+rm -r f146
 mkdir d110
 read f156 4 2
 tree
 tree
-rmr f8
+rm -r f8
 stat d110
 stat d110
 cat d131
@@ -7753,7 +7753,7 @@ ls
 mkdir n52
 truncate f156 8
 create txt f46 "k2k"
-rmr f111
+rm -r f111
 cat n105
 find d131
 read f156 0 4
@@ -7779,7 +7779,7 @@ write f156 0 "E3 DA"
 stat f268
 cd ..
 cd f247
-rmr d258
+rm -r d258
 undo
 create txt d208 "wq"
 cat d25
@@ -7792,7 +7792,7 @@ append d131 "x6feht7ce-x85uiq"
 find d263
 write f156 4 "33 46 84 47 51 65 95 BC"
 read f156 0 3
-rmr f247
+rm -r f247
 create txt d195 ""
 append d131 "-e1f5sr"
 read f156 7 1
@@ -7809,7 +7809,7 @@ undo
 create bin d152 ""
 undo
 tree
-rmr f52
+rm -r f52
 mkdir f71
 top 7
 read f156 15 1
@@ -7828,7 +7828,7 @@ write f156 4 "53 53 51 D6 5B 04 12"
 read f156 3 1
 stat d148
 ls
-rmr d262
+rm -r d262
 ls
 truncate f156 14
 ls
@@ -7869,7 +7869,7 @@ ls
 ls
 top 4
 ls
-rmr f151
+rm -r f151
 stat d148
 undo
 append f151 "9jk5mq"
@@ -7889,7 +7889,7 @@ ls
 append f151 "e 37p_."
 read f156 3 6
 find d185
-rmr d190
+rm -r d190
 cat f151
 undo
 find f151
@@ -7908,7 +7908,7 @@ read f156 9 8
 truncate f156 16
 undo
 create bin f80 "D3 F5 DF 74 CA"
-rmr f267
+rm -r f267
 truncate f156 18
 append f156 "t4ftpnyjdar"
 write f156 4 "7D 85 88"
@@ -7934,7 +7934,7 @@ append f272 "x"
 undo
 stat d242
 rm f232
-rmr d242
+rm -r d242
 ls
 create bin d184 ""
 create bin d33 "F8"
@@ -7942,14 +7942,14 @@ ls
 top 2
 cd n30
 rm f299
-rmr d184
+rm -r d184
 stat d33
 find d33
 ls
 ls
 cat d76
 write d33 4 "F9 FD 5A 84 91 77"
-rmr n77
+rm -r n77
 create txt f135 ""
 truncate d33 9
 append d33 "u9c7"
@@ -7976,7 +7976,7 @@ find f135
 create txt n91 "jinh4f3kr9i"
 cat f135
 find f135
-rmr d33
+rm -r d33
 ls
 rm f119
 find f135
@@ -7987,7 +7987,7 @@ mkdir f290
 cat f135
 mkdir d33
 create txt d5 "_cypgm9khz"
-rmr d162
+rm -r d162
 read f248 6 7
 ls
 cat f135
@@ -7995,7 +7995,7 @@ stat f135
 write f248 16 "E3"
 cat f135
 create txt f297 ""
-rmr f297
+rm -r f297
 cd f119
 write f248 19 "A4 CC"
 write f248 6 "60 25 6F 98 0F"
@@ -8028,7 +8028,7 @@ cd d77
 truncate f110 1
 create bin f94 "E9 2D 2F 70 F8"
 append f110 ".vn 07ie8-7xcs"
-rmr f94
+rm -r f94
 ls
 ls
 undo
@@ -8038,7 +8038,7 @@ cd d173
 read f110 0 1
 find d294
 append d294 "i"
-rmr n97
+rm -r n97
 mkdir d189
 create txt d189 ""
 cat d294
@@ -8072,7 +8072,7 @@ ls
 ls
 ls
 read f110 3 1
-rmr n115
+rm -r n115
 find d294
 create txt f53 "8_ny2ar-ync"
 mkdir d120
@@ -8080,7 +8080,7 @@ append f53 "h7x5wrm0cip"
 stat d115
 top 3
 read f110 0 4
-rmr d115
+rm -r d115
 cat f53
 ls
 mkdir d120
@@ -8116,7 +8116,7 @@ ls
 ls
 create bin d150 "00 9F"
 ls
-rmr f149
+rm -r f149
 create txt f217 ""
 read f110 5 2
 write f110 9 "6D 75"
@@ -8150,7 +8150,7 @@ ls
 cat d214
 mkdir d82
 rm d82
-rmr d81
+rm -r d81
 truncate f141 3
 ls
 mkdir d211
@@ -8159,14 +8159,14 @@ write f141 0 "55 EA CB 6F 9B A0 2D AA"
 find f252
 create md d226 "ek"
 append f141 "x"
-rmr f141
+rm -r f141
 undo
 ls
 undo
 write f248 0 "A5 9B 1E 9B 4E 6E C6"
 create md f24 "s"
 ls
-rmr d139
+rm -r d139
 mkdir n30
 create bin n49 "4A D8 93 5A 27 DB 8D"
 write f248 1 "39 BE 07"
@@ -8182,7 +8182,7 @@ undo
 rm d293
 ls
 stat f248
-rmr f21
+rm -r f21
 truncate f248 16
 cd ..
 append f248 "t"
@@ -8208,7 +8208,7 @@ create md d260 ""
 mkdir d171
 create txt f158 ""
 write f248 1 "21 2D 85 E5 D6 FC"
-rmr d10
+rm -r d10
 undo
 append f248 "x"
 stat f248
@@ -8225,7 +8225,7 @@ mkdir d230
 write f248 13 "95 B3 26 E6 F6 AA 23"
 ls
 create txt n81 "t5dl2dm_0w "
-rmr d230
+rm -r d230
 create txt f130 "cng7 z8l"
 mkdir d58
 rm f248
@@ -8245,7 +8245,7 @@ rm f217
 truncate n49 6
 read n49 5 1
 write n49 7 "44 F0"
-rmr f18
+rm -r f18
 rm f141
 cd f28
 cat d283
@@ -8319,7 +8319,7 @@ cd f44
 read d150 10 2
 ls
 ls
-rmr f127
+rm -r f127
 find f151
 mkdir f224
 mkdir d68
@@ -8329,7 +8329,7 @@ append n95 "x"
 rm d226
 read f248 17 2
 stat n95
-rmr d226
+rm -r d226
 create md n95 "tyf"
 read f248 9 4
 create bin d258 "C3 9A 54 29 70 A5"
@@ -8359,13 +8359,13 @@ create txt d119 ".m1q044t1cv2ljms"
 cat f151
 cat f151
 ls
-rmr f225
+rm -r f225
 cat f151
 mkdir f237
 cd f237
 ls
 ls
-rmr f61
+rm -r f61
 top 3
 mkdir d263
 top 1
@@ -8388,7 +8388,7 @@ create md d91 ""
 mkdir n46
 read f171 3 1
 tree
-rmr d91
+rm -r d91
 read f171 4 2
 ls
 cat n44
@@ -8411,15 +8411,15 @@ create md f288 ""
 ls
 create txt f24 ""
 cd ..
-rmr d119
+rm -r d119
 append d258 " -51 fpngm2w 3r3"
 find f151
 mkdir f228
-rmr f151
+rm -r f151
 mkdir f207
 cat d88
 cat d88
-rmr d114
+rm -r d114
 mkdir f0
 cd f207
 undo
@@ -8442,10 +8442,10 @@ read n7 3 3
 ls
 truncate n7 10
 cd f237
-rmr f288
+rm -r f288
 ls
 cd f170
-rmr f288
+rm -r f288
 cd ..
 mkdir n81
 truncate f171 9
@@ -8462,7 +8462,7 @@ cd f170
 create md f24 "1v58k8d5 us"
 find f24
 create md f266 "e1 3on_6qf"
-rmr d185
+rm -r d185
 stat f24
 create md f266 "zp_ja-2qi"
 cat f24
@@ -8489,7 +8489,7 @@ undo
 stat f266
 top 2
 cd f162
-rmr f266
+rm -r f266
 create txt d17 "zfrkdhd 737xq5p"
 ls
 stat f22
@@ -8499,10 +8499,10 @@ create md f9 "_e0"
 write f171 10 "76 C1 24"
 create txt d77 "emj2s0bl.iwl"
 find n58
-rmr d66
+rm -r d66
 ls
 read f171 8 1
-rmr d77
+rm -r d77
 find d17
 mkdir d262
 create txt f158 "5ugp2m5jyv307"
@@ -8530,7 +8530,7 @@ cd n46
 ls
 write f171 15 "DB 3B F0 F2 64 4B 4F"
 ls
-rmr d275
+rm -r d275
 ls
 mkdir n6
 rm n6
@@ -8573,12 +8573,12 @@ rm f174
 append f171 "3mnhbcc5"
 top 6
 rm n81
-rmr f171
+rm -r f171
 mkdir d248
 undo
-rmr f91
+rm -r f91
 read f279 2 3
-rmr n46
+rm -r n46
 read f279 4 2
 tree
 read f279 6 1
@@ -8593,7 +8593,7 @@ top 8
 ls
 undo
 append f279 "ghxdkb8z.q5onf "
-rmr f99
+rm -r f99
 ls
 cd f170
 write f279 3 "82"
@@ -8614,7 +8614,7 @@ append d258 "x"
 tree
 undo
 mkdir d139
-rmr f175
+rm -r f175
 create bin f129 "C8 15"
 cd d139
 undo
@@ -8623,7 +8623,7 @@ append d258 "jbi1w9mqc8x"
 read d258 0 1
 write d258 2 "58 4F 42 13 16"
 undo
-rmr d139
+rm -r d139
 tree
 mkdir f190
 append d258 "8g_5.0s"
@@ -8642,13 +8642,13 @@ create bin n30 ""
 mkdir f25
 ls
 cd f25
-rmr d209
+rm -r d209
 write d258 4 "A6 12 D0 62"
 find d258
 cd ..
 ls
 mkdir d43
-rmr f296
+rm -r f296
 undo
 find f58
 mkdir f298
@@ -8736,7 +8736,7 @@ top 5
 mkdir f103
 read d258 1 10
 find d258
-rmr f103
+rm -r f103
 undo
 rm f103
 undo
@@ -8778,7 +8778,7 @@ write d258 17 "7E"
 top 3
 top 3
 rm d106
-rmr d37
+rm -r d37
 cd ..
 ls
 truncate d258 21
@@ -8794,7 +8794,7 @@ undo
 append d258 "ut"
 find d258
 ls
-rmr d25
+rm -r d25
 cd ..
 create md d97 "lafjj-u"
 cd ..
@@ -8818,7 +8818,7 @@ create txt f221 "_4a"
 create bin f106 ""
 ls
 cat d88
-rmr f221
+rm -r f221
 undo
 rm f101
 ls
@@ -8872,7 +8872,7 @@ mkdir f105
 undo
 cd n81
 cat n31
-rmr n119
+rm -r n119
 create txt f238 "_l"
 undo
 write d258 16 "19"
@@ -8884,11 +8884,11 @@ ls
 cat f175
 cd ..
 find d258
-rmr n46
+rm -r n46
 ls
 ls
 create bin f111 "E1 69 C8 85 7F 78 FF B7"
-rmr d66
+rm -r d66
 ls
 create txt f212 "w33.n187cob"
 create txt f251 ""
@@ -8923,7 +8923,7 @@ stat d258
 create txt f170 ""
 append d258 "x"
 create bin f215 ""
-rmr f250
+rm -r f250
 undo
 cd f52
 ls
@@ -8960,7 +8960,7 @@ write d258 25 "5A 91 88"
 truncate d258 29
 undo
 cat d140
-rmr f52
+rm -r f52
 ls
 ls
 write d258 21 "D7 13 3F D4 3D"
@@ -8993,8 +8993,8 @@ write d258 28 "22"
 read d258 12 1
 undo
 tree
-rmr d187
-rmr f51
+rm -r d187
+rm -r f51
 create txt f235 "1tb6ge2 m850c"
 read d258 1 28
 rm f176
@@ -9020,7 +9020,7 @@ cat n19
 ls
 create bin f152 "3A 2C A8 35 BF C0 1A 21"
 write f152 2 "E2 0E D9"
-rmr f152
+rm -r f152
 cd ..
 cat f258
 read d258 27 3
@@ -9065,12 +9065,12 @@ append f292 "jym-rh9-n6goi3o"
 create md d156 ""
 cat n51
 truncate d258 29
-rmr d1
+rm -r d1
 truncate d258 28
 ls
-rmr f207
+rm -r f207
 cat d156
-rmr d83
+rm -r d83
 mkdir d11
 create txt d56 "bkr8kjy2wywcyh5g"
 read d258 16 10
@@ -9097,7 +9097,7 @@ mkdir f228
 find f14
 mkdir d205
 truncate n79 3
-rmr d205
+rm -r d205
 find n79
 rm n51
 undo
@@ -9109,7 +9109,7 @@ undo
 append n79 ".10_c"
 cd d151
 rm n51
-rmr n79
+rm -r n79
 tree
 undo
 cd ..
@@ -9155,7 +9155,7 @@ create txt d220 ""
 write f122 6 "54 95 8A 80 21 B4 F5 88"
 read f122 7 1
 truncate f122 16
-rmr f122
+rm -r f122
 write d258 17 "EB A3 B0 15 8C 50"
 undo
 undo
@@ -9213,7 +9213,7 @@ append f245 "tr-iszsto-h01.q"
 write f122 0 "49 FB 67 0E"
 rm d135
 create txt n54 "iv"
-rmr f187
+rm -r f187
 undo
 create bin d156 ""
 mkdir f96
@@ -9243,7 +9243,7 @@ cd ..
 ls
 create bin d22 "C2 62 E3 E8 05 1F 3C"
 read f122 1 12
-rmr n88
+rm -r n88
 append d220 "x"
 rm f122
 create bin d22 "09 91 C4 E1 94"
@@ -9259,7 +9259,7 @@ create bin f90 ""
 ls
 create md n42 ""
 read f90 0 1
-rmr f90
+rm -r f90
 cd ..
 ls
 rm d286
@@ -9269,14 +9269,14 @@ stat d258
 tree
 undo
 ls
-rmr f17
+rm -r f17
 cd d104
 ls
 create bin n22 "C8 94 4F B6 FF 55 64"
 tree
 rm n22
 truncate d258 30
-rmr n40
+rm -r n40
 create bin d51 "B3 C1"
 create txt f280 ""
 create md n97 ""
@@ -9285,12 +9285,12 @@ create md d98 "6w-ymqw4"
 cat d242
 truncate d51 5
 write d51 7 "B2 C6 C4 78 A3 AC 21"
-rmr n71
+rm -r n71
 ls
 cd ..
-rmr f255
+rm -r f255
 mkdir d281
-rmr d76
+rm -r d76
 ls
 create txt f215 "4gx3bltyz5-"
 rm f25
@@ -9298,7 +9298,7 @@ ls
 truncate d258 29
 read d258 16 7
 read d258 3 19
-rmr d262
+rm -r d262
 ls
 undo
 rm d59
@@ -9311,8 +9311,8 @@ ls
 append d258 "9hxay4.e2971"
 cd d84
 rm f276
-rmr n30
-rmr f84
+rm -r n30
+rm -r f84
 mkdir d122
 truncate d258 28
 ls
@@ -9326,7 +9326,7 @@ concat d68 f111 d68
 truncate f111 11
 append f111 "wxnm9--_q"
 append d68 "zhiui24vqm2f"
-rmr d281
+rm -r d281
 top 1
 find d68
 mkdir d86
@@ -9342,7 +9342,7 @@ write d51 0 "95 C7 7D 80 BA CE"
 rm n97
 cat d263
 create md d140 ""
-rmr f121
+rm -r f121
 cat f75
 mkdir d281
 undo
@@ -9357,7 +9357,7 @@ top 3
 tree
 mkdir f234
 create txt d159 "x5y8ns4nr5"
-rmr f99
+rm -r f99
 read f111 7 2
 undo
 cd d104
@@ -9368,7 +9368,7 @@ rm f280
 cd ..
 write f111 1 "08 6D ED 3A 41 32 49 58"
 append d68 "x"
-rmr f203
+rm -r f203
 rm n13
 cd d59
 undo
@@ -9436,8 +9436,8 @@ undo
 create txt n50 "da14ldye"
 read d22 2 4
 find d220
-rmr d17
-rmr d22
+rm -r d17
+rm -r d22
 top 6
 cd ..
 rm n13
@@ -9470,16 +9470,16 @@ ls
 top 6
 cd ..
 append d68 "ywhe3 kmckpxpf"
-rmr f77
+rm -r f77
 rm d78
 ls
-rmr f234
+rm -r f234
 write f111 19 "F4 8E 23 CF 25"
 top 1
 create md d191 "zjadokq nq_9"
 append f111 "nz318 d0"
 read f111 32 3
-rmr d166
+rm -r d166
 rm f111
 stat f298
 mkdir d26
@@ -9507,7 +9507,7 @@ cd ..
 write f279 3 "C9 A5 DB"
 undo
 write f279 14 "10 D2 9B"
-rmr f170
+rm -r f170
 create bin f40 "0B CF E5 2E AB 25"
 read f279 14 3
 tree
@@ -9521,31 +9521,31 @@ create md d166 "c 3jg"
 write f279 15 "AD 71"
 top 7
 create txt d167 ""
-rmr d113
+rm -r d113
 append f279 "x"
 ls
 create txt f221 "gqvh4ki"
-rmr n81
-rmr d167
+rm -r n81
+rm -r d167
 rm f221
 ls
 stat f122
 read f279 7 9
 cat d234
 read f279 3 7
-rmr f190
+rm -r f190
 read f279 16 1
 create md f54 "d8skva"
 find f279
 rm n12
 truncate f279 16
-rmr d166
+rm -r d166
 tree
 append f279 "6t w-.0n8"
 create txt n6 "lzx"
 write f279 13 "A3 21 DA"
 read f279 10 1
-rmr f122
+rm -r f122
 append f279 "4y8c-fahv1he-nm"
 create bin d131 "CF"
 top 2
@@ -9581,10 +9581,10 @@ create bin d223 ""
 find f135
 write d223 1 "97 75 9B"
 mkdir f226
-rmr d223
+rm -r d223
 cd d185
 create md d220 ""
-rmr f226
+rm -r f226
 stat f161
 create txt d49 "t63mf2.t"
 ls
@@ -9592,12 +9592,12 @@ create md f127 ""
 mkdir n59
 write f248 1 "BD 62 C0 66 A4 BF 52"
 mkdir f281
-rmr f281
+rm -r f281
 create md n77 ""
 create txt d104 "ib4xf0-"
 write f248 21 "F3 22 B2 40 C0 ED 97"
 create txt n30 "fy0fc8zuv 0l6wl31"
-rmr n77
+rm -r n77
 mkdir f200
 undo
 append f135 "bof-kks67"
@@ -9610,12 +9610,12 @@ cat f135
 truncate f248 31
 mkdir f0
 top 7
-rmr n91
+rm -r n91
 undo
-rmr f128
+rm -r f128
 append f248 "ja2jwq6up.k"
 create txt f94 ""
-rmr d33
+rm -r d33
 create txt f125 ".x6rxxzr67"
 undo
 create md f290 "6o1nnp4yr1z"
@@ -9654,9 +9654,9 @@ append n95 " 908lijk4dhun7"
 cd n68
 mkdir f17
 create txt d31 "v8"
-rmr f106
+rm -r f106
 top 4
-rmr d289
+rm -r d289
 top 2
 undo
 mkdir f99
@@ -9694,13 +9694,13 @@ undo
 cat f194
 ls
 cd ..
-rmr f159
+rm -r f159
 write f1 13 "34 FD 5E 75 7B 4A 9B 72"
 find d269
 tree
 ls
 create bin f165 "F2 D5 D5 39"
-rmr f165
+rm -r f165
 mkdir f274
 create txt d288 "um 6blz5grlek30zf"
 ls
@@ -9727,12 +9727,12 @@ mkdir f139
 cat f78
 read d34 13 2
 create md d263 ""
-rmr f139
+rm -r f139
 mkdir n38
 ls
 truncate d34 16
 write d34 17 "69 2E 70 12 FD 98 C9 08"
-rmr n38
+rm -r n38
 cd ..
 undo
 append d263 "1wona1zr0"
@@ -9748,7 +9748,7 @@ read d34 4 25
 cd ..
 append d34 "x"
 rm f274
-rmr d288
+rm -r d288
 mkdir d220
 stat f274
 mkdir d35
@@ -9757,7 +9757,7 @@ find d88
 cat d88
 create bin d177 ""
 cd n45
-rmr f260
+rm -r f260
 stat d88
 mkdir n110
 append d88 "7x_7hcv8ims.3zi"
@@ -9771,19 +9771,19 @@ create txt n65 "s5kqib"
 truncate f1 18
 rm n65
 write f1 4 "A2"
-rmr n21
+rm -r n21
 undo
 truncate f1 16
 cd ..
 rm n110
 stat f88
 tree
-rmr d267
+rm -r d267
 cat d88
 cd ..
 truncate f1 19
 create md n102 "_.v8w"
-rmr n74
+rm -r n74
 truncate f1 22
 append d88 "93lmy24yjtchhp"
 cd ..
@@ -9796,12 +9796,12 @@ create txt f189 ""
 stat n95
 ls
 mkdir d176
-rmr f187
+rm -r f187
 mkdir d106
 mkdir f212
 top 6
 find n95
-rmr n95
+rm -r n95
 undo
 read n35 2 7
 tree
@@ -9826,7 +9826,7 @@ rm d104
 cd f0
 truncate f248 28
 truncate f248 29
-rmr n23
+rm -r n23
 find f135
 undo
 stat f135
@@ -9841,7 +9841,7 @@ top 6
 undo
 mkdir f245
 stat f245
-rmr n24
+rm -r n24
 undo
 append f135 "x"
 write f248 0 "97 E0 78 27 8B 9E 51 41"
@@ -9888,7 +9888,7 @@ truncate f248 28
 ls
 create bin f22 ""
 rm f22
-rmr d246
+rm -r d246
 stat f135
 ls
 create txt f61 "ddthtk4a7q3sd"
@@ -9903,7 +9903,7 @@ append f135 "2"
 stat f179
 cd n58
 ls
-rmr f179
+rm -r f179
 ls
 stat f135
 find f110
@@ -9914,7 +9914,7 @@ write f248 27 "43 1A 9A 2E B5"
 cd ..
 truncate f248 34
 cat f135
-rmr d5
+rm -r d5
 undo
 cd d56
 top 7
@@ -9932,10 +9932,10 @@ cd f119
 read n35 8 2
 find n45
 ls
-rmr n79
+rm -r n79
 append n35 "j-h6yao6"
 cat n1
-rmr n95
+rm -r n95
 mkdir d72
 append n1 "bgf5-a6kp."
 create txt d223 ""
@@ -9943,7 +9943,7 @@ truncate n35 10
 undo
 create txt n2 "4l0"
 concat n1 n35 n1
-rmr n68
+rm -r n68
 undo
 cd d176
 undo
@@ -10000,10 +10000,10 @@ tree
 undo
 write n35 8 "4B FA"
 mkdir n96
-rmr f41
+rm -r f41
 undo
 append f186 "xmc8odob"
-rmr d27
+rm -r d27
 undo
 undo
 tree
@@ -10030,7 +10030,7 @@ undo
 ls
 stat f229
 mkdir d272
-rmr f186
+rm -r f186
 mkdir f183
 top 4
 tree
@@ -10048,9 +10048,9 @@ cd ..
 cd f120
 create txt f146 "i-nnu96xty"
 stat f146
-rmr f146
-rmr d240
-rmr d241
+rm -r f146
+rm -r d240
+rm -r d241
 undo
 find f146
 undo
@@ -10064,7 +10064,7 @@ ls
 undo
 concat n96 n35 n96
 undo
-rmr n96
+rm -r n96
 ls
 cd ..
 cd f52
@@ -10090,7 +10090,7 @@ append f89 "ewrlgb42o"
 append f89 "d9le8m725ni75ckf"
 ls
 cat f89
-rmr f89
+rm -r f89
 tree
 top 8
 rm d272
@@ -10117,7 +10117,7 @@ write f83 13 "A3 FB 5A 58 4F 52 2B 41"
 rm n0
 tree
 mkdir f49
-rmr f158
+rm -r f158
 rm n4
 create txt d34 "32g0k2u"
 concat f274 f83 f274
@@ -10145,11 +10145,11 @@ read f83 13 7
 rm f194
 undo
 rm f83
-rmr f274
+rm -r f274
 find f183
 create txt n50 ""
-rmr f48
-rmr f45
+rm -r f48
+rm -r f45
 cd d226
 tree
 cd ..
@@ -10161,7 +10161,7 @@ tree
 mkdir d258
 rm f224
 read n35 15 1
-rmr f46
+rm -r f46
 create md f75 ""
 top 4
 mkdir f264
@@ -10171,16 +10171,16 @@ cat f183
 read n35 5 8
 cd ..
 create md f252 "rwmnu"
-rmr f252
+rm -r f252
 mkdir n37
 rm n1
 find f154
 create md f133 "1e4sx"
-rmr d285
+rm -r d285
 ls
 tree
 rm d195
-rmr d258
+rm -r d258
 create txt f135 ""
 ls
 cd ..
@@ -10207,13 +10207,13 @@ mkdir f50
 cd d72
 read n35 8 3
 cd ..
-rmr d106
+rm -r d106
 stat n35
-rmr n2
+rm -r n2
 cd d72
 mkdir f160
 append n35 "vjt5-u7 -u1dmuk"
-rmr f160
+rm -r f160
 undo
 append n35 "7u.rd 46lsifnbap"
 rm f160
@@ -10235,7 +10235,7 @@ truncate n35 20
 cd f160
 cd ..
 create txt d102 "zb1_alrp7_s kun"
-rmr f160
+rm -r f160
 append d102 "x"
 stat d102
 rm d102
@@ -10251,12 +10251,12 @@ cd n92
 ls
 cd ..
 read n35 17 3
-rmr n92
+rm -r n92
 undo
 find d217
 cd n92
 create bin f281 "BA 6F D1 D3 CB"
-rmr f281
+rm -r f281
 tree
 write n35 16 "18 F4 94 24 45 2F"
 mkdir f25
@@ -10277,7 +10277,7 @@ rm f175
 rm n1
 cat f102
 top 2
-rmr f283
+rm -r f283
 mkdir d207
 undo
 ls
@@ -10286,7 +10286,7 @@ undo
 read f283 8 1
 create md d50 "-j c1f6q"
 concat f102 f283 f102
-rmr f102
+rm -r f102
 cat d211
 find f283
 read f283 4 1
@@ -10301,7 +10301,7 @@ append f283 "rmn5t696"
 write f283 19 "0B 3D 23"
 undo
 rm f283
-rmr f102
+rm -r f102
 cd ..
 undo
 ls
@@ -10312,10 +10312,10 @@ truncate n35 24
 append d102 "j7yaee"
 cat d102
 cd ..
-rmr d121
+rm -r d121
 find f116
 cat f6
-rmr f50
+rm -r f50
 cd f186
 rm f189
 read n35 16 4
@@ -10377,7 +10377,7 @@ find f208
 stat d88
 cd ..
 tree
-rmr f228
+rm -r f228
 mkdir d18
 mkdir f260
 read f1 21 1
@@ -10396,7 +10396,7 @@ append f127 "x"
 find f119
 cd f0
 mkdir n34
-rmr f179
+rm -r f179
 stat d3
 append d3 "s8jm4"
 truncate f248 31
@@ -10442,9 +10442,9 @@ stat d3
 cd ..
 ls
 ls
-rmr n40
+rm -r n40
 top 5
-rmr n42
+rm -r n42
 mkdir f249
 find d3
 mkdir f291
@@ -10461,12 +10461,12 @@ create txt n39 ""
 cat f87
 find d3
 create txt d27 "2-la gmc "
-rmr f291
+rm -r f291
 undo
 tree
 ls
 mkdir f223
-rmr f223
+rm -r f223
 undo
 concat d3 f248 d3
 write f248 35 "A8 67 95"
@@ -10495,7 +10495,7 @@ cd f103
 cd ..
 ls
 write n86 5 "B4 C2 F7"
-rmr d12
+rm -r d12
 cat f229
 undo
 stat f229
@@ -10508,7 +10508,7 @@ undo
 ls
 truncate n86 5
 mkdir d242
-rmr n86
+rm -r n86
 cat f229
 undo
 stat f229
@@ -10522,7 +10522,7 @@ create md d234 ""
 rm d3
 cd d219
 create txt f148 "y-"
-rmr f238
+rm -r f238
 stat f148
 find f148
 cat f148
@@ -10532,20 +10532,20 @@ truncate n86 4
 find f229
 concat f229 n86 f229
 ls
-rmr f46
+rm -r f46
 read n86 2 1
 cat f229
 undo
 stat d261
 concat f229 n86 f229
-rmr d65
+rm -r d65
 mkdir d106
 cat f229
 find f88
 cd ..
 cat f229
 top 4
-rmr d219
+rm -r d219
 create txt d242 "0m3qq8g vc-l2d5"
 read n86 4 1
 rm f223
@@ -10555,7 +10555,7 @@ write n86 1 "82 7C C0 B2"
 mkdir n77
 truncate n86 4
 read n86 3 1
-rmr f223
+rm -r f223
 undo
 ls
 create bin f37 "03 4F 6C 06 C6 F5 B7"
@@ -10572,7 +10572,7 @@ append f229 "x"
 stat f229
 undo
 read n86 4 1
-rmr f103
+rm -r f103
 append n86 "sj"
 create txt d2 "49ux-1044"
 find d3
@@ -10584,7 +10584,7 @@ create txt d225 "g3t c8l_0911po"
 write n86 2 "63 EF 04"
 mkdir f293
 mkdir d181
-rmr d78
+rm -r d78
 mkdir d244
 create bin f210 "CF 61 BD 3E 22 02 D8 40"
 append f210 "x"
@@ -10610,7 +10610,7 @@ create txt d39 "fboxmnsos19rnag"
 write f210 4 "E5 DE 70 34 7A 6C 09 94"
 create bin n12 "B3 C5 02 F1 82 07 D0"
 find d39
-rmr f105
+rm -r f105
 cd ..
 ls
 write f210 12 "72 40 EF 6F"
@@ -10627,19 +10627,19 @@ find d2
 cat d2
 find d2
 read f210 2 10
-rmr d225
+rm -r d225
 write f210 12 "8B B5 12 F6"
 create txt n25 "bfzvpks 8p2ta"
 cd d195
 ls
 read f210 10 2
-rmr n57
+rm -r n57
 append d2 "d"
-rmr n35
+rm -r n35
 cat d2
 read f210 5 11
 ls
-rmr n88
+rm -r n88
 truncate f210 14
 create bin n43 "43 B4 91 5B 15 74 C3"
 create bin d168 "44 38 74 F5 42"
@@ -10658,17 +10658,17 @@ append d60 "x"
 top 6
 top 1
 tree
-rmr d60
+rm -r d60
 create txt d280 "bmmgi04cu82n3n0"
 create md d280 ""
 mkdir d218
 mkdir d185
-rmr d280
-rmr d218
+rm -r d280
+rm -r d218
 cat f157
 ls
 mkdir f271
-rmr d185
+rm -r d185
 mkdir f35
 ls
 stat f271
@@ -10710,14 +10710,14 @@ cd f114
 find f253
 undo
 truncate f127 8
-rmr f153
+rm -r f153
 create md d293 ""
 undo
 cat f253
 rm f114
 cat f253
 concat f253 f127 f253
-rmr f253
+rm -r f253
 truncate f127 10
 undo
 find f215
@@ -10729,7 +10729,7 @@ rm f127
 ls
 find d141
 stat f66
-rmr f66
+rm -r f66
 top 4
 top 1
 top 6
@@ -10795,13 +10795,13 @@ find f117
 ls
 ls
 tree
-rmr n91
+rm -r n91
 mkdir f241
 append n43 "z.-j kvkbxi"
 undo
 cd n51
 append n43 "4lb8"
-rmr n79
+rm -r n79
 write n43 21 "04 60 55 E6"
 cd ..
 write n43 25 "BA 96 F9 84 26 EE 7E 18"
@@ -10813,7 +10813,7 @@ undo
 cat d299
 read n43 29 1
 truncate n43 35
-rmr n43
+rm -r n43
 create txt n18 "51 u8x-m"
 append d168 "x"
 stat d168
@@ -10832,7 +10832,7 @@ mkdir d59
 rm f234
 write d168 4 "8C 7F 4F"
 cat n68
-rmr n93
+rm -r n93
 tree
 undo
 stat d168
@@ -10840,7 +10840,7 @@ append d168 "io4n9x2"
 append d168 "p8p2a1a"
 read d168 0 1
 cat d192
-rmr n51
+rm -r n51
 mkdir f118
 top 2
 create md d256 "ejp"
@@ -10855,7 +10855,7 @@ mkdir d239
 cd ..
 cd ..
 read n86 0 2
-rmr n77
+rm -r n77
 rm d74
 cd ..
 mkdir d153
@@ -10885,7 +10885,7 @@ cd f286
 undo
 cat d108
 cd ..
-rmr d291
+rm -r d291
 stat n76
 ls
 stat n76
@@ -10940,10 +10940,10 @@ rm d205
 read n1 51 1
 cat f63
 cat d115
-rmr d69
+rm -r d69
 mkdir d73
 cd f171
-rmr d288
+rm -r d288
 create md f13 "9cp5uz"
 cd ..
 find f63
@@ -10961,7 +10961,7 @@ truncate n1 62
 create bin f59 ""
 append n1 "0a6r."
 ls
-rmr d73
+rm -r d73
 truncate n1 64
 mkdir d134
 cd ..
@@ -10982,17 +10982,17 @@ rm f255
 rm d156
 find n91
 append d209 "x"
-rmr f14
+rm -r f14
 cd n106
 read d209 2 9
 find d209
 undo
 undo
 stat f280
-rmr d63
+rm -r d63
 append d209 "_2rzfz8vc609_1"
 create txt f179 "5087vhpmfigr"
-rmr d165
+rm -r d165
 mkdir n32
 create bin n32 "39 7E"
 rm d284
@@ -11003,7 +11003,7 @@ cd ..
 truncate d180 29
 write d180 9 "30 2B DE 41 2D AC B0 7F"
 rm d166
-rmr d166
+rm -r d166
 ls
 rm f41
 write d180 6 "D6 E4 5D D6 6C 6F C1"
@@ -11094,7 +11094,7 @@ rm d71
 append d53 "x"
 find d226
 create txt f253 ""
-rmr f253
+rm -r f253
 create md d96 ""
 create bin d250 "4C 5B C5 A2 B8 66"
 read d250 1 5
@@ -11124,11 +11124,11 @@ stat d180
 cd d241
 cat n36
 cd ..
-rmr d257
+rm -r d257
 cd d101
 cd f117
 top 5
-rmr d282
+rm -r d282
 mkdir d217
 append d180 "m-06gxwa"
 cat f166
@@ -11137,7 +11137,7 @@ truncate d180 33
 mkdir n100
 cd f53
 cat f184
-rmr n100
+rm -r n100
 create txt f114 " aori1twwj"
 find d180
 cat n76
@@ -11224,9 +11224,9 @@ read d180 24 9
 cd n34
 mkdir f3
 undo
-rmr f164
+rm -r f164
 read d180 40 1
-rmr f41
+rm -r f41
 read d180 10 23
 write d180 3 "C0 AE 1D 2A 7A 44 7A"
 create txt f130 "jemu1h7s"
@@ -11279,7 +11279,7 @@ mkdir d140
 stat d180
 mkdir f141
 truncate d180 9
-rmr d180
+rm -r d180
 ls
 stat f232
 create txt f216 ""
@@ -11292,7 +11292,7 @@ read d180 49 1
 cd f141
 stat f232
 truncate d180 45
-rmr d11
+rm -r d11
 top 5
 read d180 33 9
 append f232 "x"
@@ -11328,13 +11328,13 @@ concat f163 d180 f163
 append f163 "99"
 read d180 3 25
 write d180 10 "A7 C6 A4 4C"
-rmr f160
+rm -r f160
 concat f163 d180 f163
 stat f26
 rm f207
 cd n112
 mkdir f26
-rmr f26
+rm -r f26
 read d180 41 1
 find f163
 mkdir f216
@@ -11344,7 +11344,7 @@ mkdir d206
 cd f238
 rm f163
 mkdir d222
-rmr d206
+rm -r d206
 cd n111
 write d180 24 "F1 B7 2A 6E 45 6A 08 02"
 rm f216
@@ -11375,7 +11375,7 @@ cat n43
 mkdir f165
 rm n43
 mkdir f19
-rmr f242
+rm -r f242
 write f36 8 "AA AC D6 2C"
 mkdir f89
 append d204 "cf-g"
@@ -11385,7 +11385,7 @@ append d180 "j_-n 0zu.o8fgn"
 top 5
 mkdir n20
 read d180 28 2
-rmr d110
+rm -r d110
 ls
 top 8
 undo
@@ -11394,12 +11394,12 @@ append d53 "1qf"
 stat f132
 undo
 stat f132
-rmr d138
+rm -r d138
 ls
 append d250 "d1r"
 read d250 4 1
 read d250 0 2
-rmr d53
+rm -r d53
 truncate d250 4
 ls
 truncate d250 5
@@ -11449,14 +11449,14 @@ create txt n42 "dh."
 cd d103
 append d250 "u3.w h"
 mkdir d215
-rmr d215
+rm -r d215
 cd ..
 append d10 "bbi8gvmjagkin"
 mkdir d27
 cat d10
 create txt f140 ""
 write d250 14 "1C"
-rmr f102
+rm -r f102
 cd ..
 truncate d250 13
 find d196
@@ -11481,7 +11481,7 @@ create txt d20 ""
 find f266
 cd ..
 undo
-rmr d276
+rm -r d276
 ls
 append f266 "ws"
 create md d95 "1 xgm_wpxh"
@@ -11489,7 +11489,7 @@ create txt n41 ""
 write d250 13 "A5 30 04 5B 7D D5 CB 72"
 cd ..
 ls
-rmr d110
+rm -r d110
 append d180 "w"
 read d180 25 5
 find d180
@@ -11518,7 +11518,7 @@ undo
 append d180 "x"
 create txt f217 "ai5gw-frjpfr1p3"
 write d180 3 "3D D3 CF BF 9B"
-rmr n13
+rm -r n13
 write d180 28 "5F 8F"
 read d180 20 15
 undo
@@ -11538,7 +11538,7 @@ append d180 " "
 undo
 cd d264
 truncate d250 23
-rmr f266
+rm -r f266
 rm f132
 tree
 rm f153
@@ -11572,8 +11572,8 @@ cat f62
 rm f10
 write d180 37 "1B"
 cat d9
-rmr d207
-rmr d88
+rm -r d207
+rm -r d88
 mkdir d93
 undo
 undo
@@ -11585,8 +11585,8 @@ stat d207
 rm d282
 rm f86
 read d180 13 26
-rmr d207
-rmr f66
+rm -r d207
+rm -r f66
 write d180 38 "05 01 E0 2F 0F"
 mkdir d16
 ls
@@ -11635,9 +11635,9 @@ create txt d137 "zpx1ip5g"
 read d180 3 25
 create txt d229 "s3oltmcjezjcwt9x"
 write d180 26 "C2 F4 6A C9 14 73 27"
-rmr d137
+rm -r d137
 mkdir d163
-rmr d105
+rm -r d105
 write d180 18 "4D 1E AF"
 append d180 " n91"
 mkdir d45
@@ -11659,7 +11659,7 @@ create bin f271 ""
 cd n44
 ls
 cat f252
-rmr d217
+rm -r d217
 top 3
 create bin d206 "30 9C B2 37 B0 87 20"
 read d180 31 5
@@ -11672,21 +11672,21 @@ mkdir f297
 mkdir n6
 cat d143
 rm f297
-rmr d180
+rm -r d180
 ls
 top 7
 create md d229 "0y7x9-m4l"
 ls
 mkdir f182
 undo
-rmr d228
-rmr d155
+rm -r d228
+rm -r d155
 undo
 ls
 cd n67
 top 4
 cd d243
-rmr n53
+rm -r n53
 rm f271
 cat f147
 truncate d276 2
@@ -11704,7 +11704,7 @@ ls
 mkdir d138
 create md n119 ""
 ls
-rmr d93
+rm -r d93
 cat d293
 ls
 create bin f134 "FA 3B 0E 82 84 9B"
@@ -11743,14 +11743,14 @@ stat f216
 top 6
 rm d73
 top 2
-rmr f216
-rmr d75
+rm -r f216
+rm -r d75
 cat f112
 write d276 12 "81 FC 27"
 append f112 "sr5ptio9"
 cat f112
 mkdir d131
-rmr f41
+rm -r f41
 undo
 mkdir d222
 undo
@@ -11761,12 +11761,12 @@ undo
 read d276 4 1
 create bin d264 "65 CB A4 AA D1 87 16"
 append f112 "kfcq3d.2e8vhnu.5q"
-rmr f112
+rm -r f112
 undo
 cd d261
 ls
 ls
-rmr d50
+rm -r d50
 ls
 write d264 10 "D1 AE 3A 4A A7 87"
 append d264 "x"
@@ -11774,7 +11774,7 @@ undo
 write d264 6 "4D A6"
 cat f186
 undo
-rmr d181
+rm -r d181
 ls
 read d264 3 3
 mkdir f83
@@ -11792,7 +11792,7 @@ write d264 5 "00 AA 92 E2 A9"
 truncate d264 7
 read d264 3 2
 stat d261
-rmr f18
+rm -r f18
 mkdir f89
 create md d207 "w2b00g_pwa2dy"
 create bin f112 "AC E0 D0"
@@ -11805,12 +11805,12 @@ mkdir d55
 create txt f54 "o994uxuxl-"
 create md d262 "gd"
 truncate d264 7
-rmr f112
+rm -r f112
 rm d261
 create txt n8 "ivx59x11y53ynpeb"
 cd n26
 create txt d204 ""
-rmr d31
+rm -r d31
 truncate d264 6
 rm n8
 read d264 3 1
@@ -11858,7 +11858,7 @@ cd f136
 mkdir d227
 ls
 append d264 "96ghl7.d73"
-rmr d204
+rm -r d204
 append d207 "q5"
 cd ..
 ls
@@ -11875,7 +11875,7 @@ mkdir f10
 rm d49
 ls
 create txt d84 "5 wj"
-rmr d53
+rm -r d53
 cd n9
 read d276 13 2
 ls
@@ -11906,7 +11906,7 @@ write d276 11 "55 DD"
 write d276 5 "5A 3F 0C BD 3F 89 47"
 create md d234 ""
 rm d45
-rmr d227
+rm -r d227
 ls
 cd ..
 cd d237
@@ -11916,7 +11916,7 @@ ls
 write d276 3 "60"
 ls
 find f110
-rmr n116
+rm -r n116
 create bin f270 "83"
 mkdir f207
 rm f207
@@ -11938,7 +11938,7 @@ find d85
 create txt f221 ""
 append d276 "dce"
 truncate d276 20
-rmr d33
+rm -r d33
 create md f99 "uq.fhg02lqt7mma"
 rm f260
 ls
@@ -11960,7 +11960,7 @@ create txt f126 ""
 append d276 "h3jtnko."
 ls
 append d276 "sqz9"
-rmr d206
+rm -r d206
 cd f42
 cd f94
 create bin f79 "A6 8E 40 17 C7 68 B4 99"
@@ -11975,7 +11975,7 @@ mkdir n40
 cat d271
 create txt d138 "q"
 create txt d44 ""
-rmr f259
+rm -r f259
 truncate d209 24
 write d209 16 "21 A0 C7 B0 DF"
 truncate d209 22
@@ -11998,4 +11998,4 @@ create txt n2 ""
 ls
 find d276
 top 6
-rmr n50
+rm -r n50

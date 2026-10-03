@@ -12,7 +12,7 @@ create md guide.md "# guide"
 cd ..
 cd ..
 ls
-rmr docs
+rm -r docs
 ls
 undo
 ls
@@ -20,9 +20,9 @@ cd docs
 cat guide.md
 cd ..
 cd ..
-rmr proj
+rm -r proj
 ls
 undo
 ls
-rmr nope
+rm -r nope
 tree
