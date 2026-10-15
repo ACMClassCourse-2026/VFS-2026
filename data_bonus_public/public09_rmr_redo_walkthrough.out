@@ -1,0 +1,7 @@
+raw/
+a.txt:a
+/
+└── data/
+    └── raw/
+        ├── a.txt
+        └── b.txt
